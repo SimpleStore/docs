@@ -4,7 +4,7 @@ SimpleStore API uses bearer token to authenticate requests. To generate a Token,
 
 {% api-method method="post" host="https://auth.simplestore.io" path="/connect/token" %}
 {% api-method-summary %}
-Get Cakes
+Get Access Token
 {% endapi-method-summary %}
 
 {% api-method-description %}
