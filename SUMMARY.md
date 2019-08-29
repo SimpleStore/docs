@@ -1,4 +1,8 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [What is SimpleStore](README.md)
+
+## API
+
+* [Authentication](api/authentication.md)
 
