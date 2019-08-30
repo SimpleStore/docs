@@ -1,6 +1,12 @@
 # Authentication
 
-SimpleStore API uses bearer token to authenticate requests. To generate a Token, client credentials are use to call the Auth service to retrieve a token.
+SimpleStore platform uses bearer token to authenticate API requests. Using OAuth client credentials to authenticate the calling application and return a token that is valid for 60 minutes.
+
+This token then used as a Bearer Token for subsequent API calls to the platform.
+
+{% hint style="warning" %}
+`client_secret`is sensitive information and it should never used or disclosed publicly.
+{% endhint %}
 
 {% api-method method="post" host="https://auth.simplestore.io" path="/connect/token" %}
 {% api-method-summary %}
@@ -8,7 +14,7 @@ Get Access Token
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+This endpoint responsible in generating access tokens for Client \(application\) to allow full read and write access to the platform.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -19,19 +25,19 @@ application/x-www-form-urlencoded
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
-{% api-method-body-parameters %}
+{% api-method-form-data-parameters %}
 {% api-method-parameter name="grant\_type" type="string" required=true %}
-client\_credentials
+`client_credentials`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="client\_id" type="string" required=true %}
-Client id
+Your `client_id` generated from Control Panel
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="client\_secret" type="string" required=true %}
-Client secret
+Your `client_secret` generated from Control Panel 
 {% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
+{% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -64,5 +70,7 @@ Failed authentication will return invalid client
 {% endapi-method-spec %}
 {% endapi-method %}
 
-
+{% hint style="info" %}
+`access_token` has an expiry of 60 minutes. You must renew the token on or before expiry.
+{% endhint %}
 

@@ -1,4 +1,8 @@
-# Swagger
+# Swagger References
+
+SimpleStore API design follows micro-services architecture. Each service is responsible on a set of business capabilities. 
+
+You can use the swagger documentation to generate client proxies to use in your application
 
 ### Catalog Service
 
@@ -16,7 +20,7 @@
 
 [https://api.simplestore.dev/swagger/cart/index.html](https://api.simplestore.dev/swagger/cart/index.html)
 
-### Order Service 
+### Orders Service 
 
 [https://api.simplestore.dev/swagger/orders/index.html](https://api.simplestore.dev/swagger/orders/index.html)
 

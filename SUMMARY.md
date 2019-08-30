@@ -1,17 +1,21 @@
 # Table of contents
 
-* [What is SimpleStore](README.md)
+* [SimpleStore API Reference](README.md)
 
-## API Documentation <a id="api"></a>
+## Basics
 
-* [Getting Started](api/getting-started.md)
-* [Swagger](api/swagger.md)
-* [Authentication](api/authentication.md)
-* [Catalog](api/catalog/README.md)
-  * [Products](api/catalog/products.md)
-  * [Categories](api/catalog/categories.md)
-  * [Collections](api/catalog/collections.md)
-* [Assets](api/assets/README.md)
-  * [Files](api/assets/files.md)
-  * [Folders](api/assets/folders.md)
+* [Authentication](basics/authentication.md)
+* [Swagger References](basics/swagger.md)
+* [Pagination](basics/pagination.md)
+
+## Catalog
+
+* [Products](catalog/products.md)
+* [Categories](catalog/categories.md)
+* [Collections](catalog/collections.md)
+
+## Assets
+
+* [Files](assets/files.md)
+* [Folders](assets/folders.md)
 

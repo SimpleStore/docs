@@ -1,15 +1,12 @@
----
-description: >-
-  SimpleStore is a hosted headless eCommerce platform that provides all the
-  required back-end functionality to build a sophisticated and robust eCommerce
-  experience
----
+# SimpleStore API Reference
 
-# What is SimpleStore
+[SimpleStore](https://simplestore.io/) is a hosted headless eCommerce platform that provides all the required back-end functionality to build a sophisticated and robust eCommerce experience.
 
-{% hint style="info" %}
-This is the documentation for the platform's REST API.
-{% endhint %}
+## SDKs
 
+We are working on a number of SDKs for Javascript \(using typescript\) and ASPNET Core 2.2. 
 
+## Support
+
+If you have any questions or require help using the platform, send us an email to support@simplestore.io
 
