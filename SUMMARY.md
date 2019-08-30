@@ -2,7 +2,8 @@
 
 * [What is SimpleStore](README.md)
 
-## API
+## API Documentation <a id="api"></a>
 
+* [Getting Started](api/getting-started.md)
 * [Authentication](api/authentication.md)
 
