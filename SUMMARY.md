@@ -5,6 +5,7 @@
 ## API Documentation <a id="api"></a>
 
 * [Getting Started](api/getting-started.md)
+* [Swagger](api/swagger.md)
 * [Authentication](api/authentication.md)
 * [Catalog](api/catalog/README.md)
   * [Products](api/catalog/products.md)
