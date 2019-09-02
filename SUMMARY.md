@@ -1,6 +1,6 @@
 # Table of contents
 
-* [SimpleStore API Reference](README.md)
+* [Overview](README.md)
 
 ## Basics
 
@@ -16,6 +16,6 @@
 
 ## Assets
 
-* [Files](assets/files.md)
 * [Folders](assets/folders.md)
+* [Files](assets/files.md)
 
