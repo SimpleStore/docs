@@ -10,7 +10,7 @@ This token then used as a Bearer Token for subsequent API calls to the platform.
 
 {% api-method method="post" host="https://auth.simplestore.io" path="/connect/token" %}
 {% api-method-summary %}
-Get Access Token
+Access Token
 {% endapi-method-summary %}
 
 {% api-method-description %}
