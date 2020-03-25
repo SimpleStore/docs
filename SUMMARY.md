@@ -2,9 +2,17 @@
 
 * [Overview](README.md)
 
+## Getting Started
+
+* [Untitled](getting-started/untitled.md)
+
 ## Key Concepts
 
-* [Untitled](key-concepts/untitled.md)
+* [Catalog](key-concepts/untitled.md)
+* [Assets](key-concepts/assets.md)
+* [Customers](key-concepts/customers.md)
+* [Cart](key-concepts/cart.md)
+* [Orders](key-concepts/orders.md)
 
 ## Console
 
@@ -32,8 +40,4 @@
 * [Untitled](assets/untitled.md)
 * [Folders](assets/folders.md)
 * [Files](assets/files.md)
-
-## Getting Started
-
-* [Untitled](getting-started/untitled.md)
 
