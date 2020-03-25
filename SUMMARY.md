@@ -2,6 +2,10 @@
 
 * [Overview](README.md)
 
+## Console
+
+* [Introduction](console/introduction.md)
+
 ## Basics
 
 * [Authentication](basics/authentication.md)
