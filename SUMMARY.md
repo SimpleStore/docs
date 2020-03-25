@@ -2,6 +2,10 @@
 
 * [Overview](README.md)
 
+## Key Concepts
+
+* [Untitled](key-concepts/untitled.md)
+
 ## Console
 
 * [Introduction](console/introduction.md)
@@ -28,8 +32,4 @@
 * [Untitled](assets/untitled.md)
 * [Folders](assets/folders.md)
 * [Files](assets/files.md)
-
-## Key Concepts
-
-* [Untitled](key-concepts/untitled.md)
 
