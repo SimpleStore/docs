@@ -4,6 +4,7 @@
 
 ## Getting Started
 
+* [Introduction](getting-started/introduction.md)
 * [Creating Your First Product](getting-started/untitled.md)
 * [QuickBuy](getting-started/quickbuy.md)
 
@@ -20,10 +21,6 @@
 * [Customers](key-concepts/customers.md)
 * [Cart](key-concepts/cart.md)
 * [Orders](key-concepts/orders.md)
-
-## Console
-
-* [Introduction](console/introduction.md)
 
 ## API
 
