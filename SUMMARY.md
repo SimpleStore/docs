@@ -6,6 +6,11 @@
 
 * [Introduction](console/introduction.md)
 
+## API
+
+* [Untitled](api/untitled.md)
+* [Untitled](api/untitled-1.md)
+
 ## Basics
 
 * [Authentication](basics/authentication.md)
@@ -20,6 +25,7 @@
 
 ## Assets
 
+* [Untitled](assets/untitled.md)
 * [Folders](assets/folders.md)
 * [Files](assets/files.md)
 
