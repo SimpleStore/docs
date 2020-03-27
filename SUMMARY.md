@@ -1,28 +1,42 @@
 # Table of contents
 
-* [Overview](README.md)
+* [What is Simple Store?](README.md)
 
 ## Getting Started
 
-* [Introduction](getting-started/introduction.md)
+* [The Console](getting-started/introduction.md)
 * [Creating Your First Product](getting-started/untitled.md)
 * [QuickBuy](getting-started/quickbuy.md)
 
-## Key Concepts
+## Catalog <a id="catalog-1"></a>
 
-* [Catalog](key-concepts/untitled/README.md)
-  * [Product](key-concepts/untitled/product.md)
-  * [Specials](key-concepts/untitled/specials.md)
-  * [Configuration](key-concepts/untitled/configuration.md)
-  * [Collections](key-concepts/untitled/collections.md)
-  * [Categories](key-concepts/untitled/categories.md)
-  * [Bundles](key-concepts/untitled/bundles.md)
-* [Assets](key-concepts/assets.md)
-* [Customers](key-concepts/customers.md)
-* [Cart](key-concepts/cart/README.md)
-  * [Shipping](key-concepts/cart/shipping.md)
-* [Orders](key-concepts/orders/README.md)
-  * [Payments](key-concepts/orders/payments.md)
+* [Product](catalog-1/product.md)
+* [Specials](catalog-1/specials/README.md)
+  * [Configuration](catalog-1/specials/configuration.md)
+* [Collections](catalog-1/collections.md)
+* [Categories](catalog-1/categories.md)
+* [Bundles](catalog-1/bundles.md)
+
+## Assets <a id="assets-1"></a>
+
+* [Assets](assets-1/assets.md)
+* [Image Resizing](assets-1/image-resizing.md)
+
+## Cart
+
+* [Cart](cart/cart.md)
+* [Shipping](cart/shipping.md)
+
+## Orders
+
+* [Orders](orders/orders.md)
+* [Payments](orders/payments.md)
+* [Folders](orders/folders.md)
+* [Files](orders/files.md)
+
+## Customers
+
+* [Customers](customers/customers.md)
 
 ## API
 
@@ -34,16 +48,4 @@
 * [Authentication](basics/authentication.md)
 * [Swagger References](basics/swagger.md)
 * [Pagination](basics/pagination.md)
-
-## Catalog
-
-* [Products](catalog/products.md)
-* [Categories](catalog/categories.md)
-* [Collections](catalog/collections.md)
-
-## Assets
-
-* [Untitled](assets/untitled.md)
-* [Folders](assets/folders.md)
-* [Files](assets/files.md)
 
