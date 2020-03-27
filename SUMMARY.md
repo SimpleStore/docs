@@ -19,8 +19,10 @@
   * [Bundles](key-concepts/untitled/bundles.md)
 * [Assets](key-concepts/assets.md)
 * [Customers](key-concepts/customers.md)
-* [Cart](key-concepts/cart.md)
-* [Orders](key-concepts/orders.md)
+* [Cart](key-concepts/cart/README.md)
+  * [Shipping](key-concepts/cart/shipping.md)
+* [Orders](key-concepts/orders/README.md)
+  * [Payments](key-concepts/orders/payments.md)
 
 ## API
 
