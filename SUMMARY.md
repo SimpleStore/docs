@@ -11,6 +11,8 @@
 ## Catalog <a id="catalog-1"></a>
 
 * [Product](catalog-1/product.md)
+* [Pricing](catalog-1/pricing.md)
+* [Rewards](catalog-1/rewards.md)
 * [Specials](catalog-1/specials/README.md)
   * [Configuration](catalog-1/specials/configuration.md)
 * [Collections](catalog-1/collections.md)
