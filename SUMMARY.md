@@ -40,12 +40,9 @@
 
 ## API
 
-* [Untitled](api/untitled.md)
-* [Untitled](api/untitled-1.md)
+* [Authentication](authentication.md)
+* [Swagger References](swagger.md)
+* [Pagination](pagination.md)
 
 ## Basics
-
-* [Authentication](basics/authentication.md)
-* [Swagger References](basics/swagger.md)
-* [Pagination](basics/pagination.md)
 
