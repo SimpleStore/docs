@@ -26,7 +26,7 @@ The Product object comprises a both a standard set of default fields along with 
     </tr>
     <tr>
       <td style="text-align:left">Title</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Default Title for Product</td>
     </tr>
     <tr>
       <td style="text-align:left">Description</td>
@@ -34,7 +34,7 @@ The Product object comprises a both a standard set of default fields along with 
     </tr>
     <tr>
       <td style="text-align:left">Titles</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Dictionary for</td>
     </tr>
     <tr>
       <td style="text-align:left">Descriptions</td>
