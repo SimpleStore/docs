@@ -42,15 +42,15 @@ The Product object comprises a both a standard set of default fields along with 
     </tr>
     <tr>
       <td style="text-align:left">IsActive</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">True or False</td>
     </tr>
     <tr>
       <td style="text-align:left">Status</td>
       <td style="text-align:left">
-        <p>Available</p>
-        <p>OutOfStock</p>
-        <p>Discontinued</p>
-        <p>Unavailable</p>
+        <p>Available = Product is Available</p>
+        <p>Out Of Stock = Product is Out of Stock</p>
+        <p>Discontinued = Product has been discontinued</p>
+        <p>Unavailable = Product is unavailable</p>
       </td>
     </tr>
     <tr>

@@ -18,6 +18,7 @@
 * [Collections](catalog-1/collections.md)
 * [Categories](catalog-1/categories.md)
 * [Bundles](catalog-1/bundles.md)
+* [Configuration](catalog-1/configuration.md)
 
 ## Assets <a id="assets-1"></a>
 
