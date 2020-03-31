@@ -34,8 +34,6 @@
 
 * [Orders](orders/orders.md)
 * [Payments](orders/payments.md)
-* [Folders](orders/folders.md)
-* [Files](orders/files.md)
 
 ## Customers
 
@@ -46,6 +44,4 @@
 * [Authentication](authentication.md)
 * [Swagger References](swagger.md)
 * [Pagination](pagination.md)
-
-## Basics
 
