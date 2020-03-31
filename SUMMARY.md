@@ -13,6 +13,7 @@
 * [Product](catalog-1/product.md)
 * [Pricing](catalog-1/pricing.md)
 * [Rewards](catalog-1/rewards.md)
+* [Inventory](catalog-1/inventory.md)
 * [Specials](catalog-1/specials/README.md)
   * [Configuration](catalog-1/specials/configuration.md)
 * [Collections](catalog-1/collections.md)
