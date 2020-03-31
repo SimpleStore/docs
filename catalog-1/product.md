@@ -100,42 +100,17 @@ The Product object comprises both a standard set of default fields along with a 
     </tr>
     <tr>
       <td style="text-align:left">BaseRewards</td>
-      <td style="text-align:left">
-        <p>Base rewards defines the....</p>
-        <p>The base rewards comprises:</p>
-        <ul>
-          <li>isEnabled: rewards pricing is enabled</li>
-          <li>points: product price in points</li>
-          <li>minPayAmount: minimum payment amount for purchase</li>
-          <li>minPointsAmount: minimum points amount for purchase</li>
-        </ul>
+      <td style="text-align:left">See <a href="rewards.md">Rewards </a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Rewards</td>
-      <td style="text-align:left">
-        <p></p>
-        <p>Base rewards defines the....</p>
-        <p>The base rewards comprises:</p>
-        <ul>
-          <li>isEnabled: rewards pricing is enabled</li>
-          <li>points: product price in points</li>
-          <li>minPayAmount: minimum payment amount for purchase</li>
-          <li>minPointsAmount: minimum points amount for purchase</li>
-        </ul>
+      <td style="text-align:left">See <a href="rewards.md">Rewards </a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Inventory</td>
-      <td style="text-align:left">
-        <p>Defines the inventory</p>
-        <ul>
-          <li>sku</li>
-          <li>availableQuantity number($double) nullable: true</li>
-          <li>minActiveQuantity number($double) nullable: true</li>
-          <li>grossWeight number($double) nullable: true</li>
-          <li>trackInventory boolean</li>
-        </ul>
+      <td style="text-align:left">See <a href="inventory.md">Inventory</a>
       </td>
     </tr>
   </tbody>
