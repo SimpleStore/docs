@@ -4,10 +4,10 @@
 
 Base rewards defines the....
 
-| Element | Description |
-| :--- | :--- |
-| isEnabled | Rewards pricing is enabled |
-| points | Product price in points |
-| minPayAmount | Minimum payment amount for purchase  |
-| minPointsAmount | Minimum points amount for purchase  |
+| Element | Description |  |
+| :--- | :--- | :--- |
+| IsEnabled | Rewards pricing is enabled |  |
+| Points | Product price in points |  |
+| MinPayAmount | Minimum payment amount for purchase  |  |
+| MinPointsAmount | Minimum points amount for purchase  |  |
 

@@ -2,11 +2,11 @@
 
 
 
-| Element | Description |
-| :--- | :--- |
-| Sku |  |
-| availableQuantity |  |
-| minActiveQuantity |  |
-| grossWeight |  |
-| trackInventory |  |
+| Element | Description |  |
+| :--- | :--- | :--- |
+| Sku |  |  |
+| AvailableQuantity |  |  |
+| MinActiveQuantity |  |  |
+| GrossWeight |  |  |
+| TrackInventory |  |  |
 
