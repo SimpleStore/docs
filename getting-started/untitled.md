@@ -49,3 +49,5 @@ _Where rewards capability is enabled_
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
+Click **Save**
+
