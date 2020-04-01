@@ -35,7 +35,9 @@ Additional product **Details** can be specified including:
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
-###  Rewards \(where Loyalty is enabled\)
+###  Rewards
+
+_Where rewards capability is enabled_
 
 **Optional:** In the Rewards Tab specify if the Product can be redeemed for Points or Currency.
 
