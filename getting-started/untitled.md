@@ -18,12 +18,12 @@ Click **Submit**
 
 ###  Details
 
+Specify a Sell and Retail Price \(see [Pricing](../catalog-1/pricing.md)\)
+
 Additional product **Details** can be specified including:
 
 * Categories \(see [Categories](../catalog-1/categories.md)\)
 * Collections \(see [Collections](../catalog-1/collections.md)\)
-
-Specify a Sell and Retail Price \(see [Pricing](../catalog-1/pricing.md)\)
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
@@ -31,19 +31,19 @@ Specify a Sell and Retail Price \(see [Pricing](../catalog-1/pricing.md)\)
 
 ### Inventory
 
-Optional: in the Inventory Tab specify a Sku \(stock-keeping unit\) and available quantity and minimum active quantity. For more detail see [Inventory](../catalog-1/inventory.md).
+**Optional:** in the Inventory Tab specify a Sku \(stock-keeping unit\) and available quantity and minimum active quantity. For more detail see [Inventory](../catalog-1/inventory.md).
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
-###  Rewards
+###  Rewards \(where Loyalty is enabled\)
 
-Optional: In the Rewards Tab specify 
-
-
+**Optional:** In the Rewards Tab specify if the Product can be redeemed for Points or Currency.
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
 ### Attributes
+
+**Optional:** Additional product attributes can be specified as Key/Value pairs in the **Attributes** Tab.
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
