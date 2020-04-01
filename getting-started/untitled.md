@@ -6,7 +6,7 @@ Assess the **Catalog** screen in the console via the console navigation bar.
 
 Click **Add New**
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 ### Add New Product
 
@@ -25,7 +25,7 @@ Additional product **Details** can be specified including:
 * Categories \(see [Categories](../catalog-1/categories.md)\)
 * Collections \(see [Collections](../catalog-1/collections.md)\)
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 
 
@@ -33,7 +33,7 @@ Additional product **Details** can be specified including:
 
 **Optional:** in the Inventory Tab specify a Sku \(stock-keeping unit\) and available quantity and minimum active quantity. For more detail see [Inventory](../catalog-1/inventory.md).
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image.png)
 
 ###  Rewards
 
@@ -41,7 +41,7 @@ _Where rewards capability is enabled_
 
 **Optional:** In the Rewards Tab specify if the Product can be redeemed for Points or Currency.
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 ### Attributes
 
