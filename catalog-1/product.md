@@ -1,6 +1,6 @@
 # Product
 
-A Product represents a something that can be purchased within the the Simple Store Platform.
+A Product represents something that can be purchased within the the Simple Store platform.
 
 The Product object comprises both a standard set of default fields along with a flexible model to extend the product to meet your customisation needs.
 
