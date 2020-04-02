@@ -1,6 +1,6 @@
 # Product
 
-A Product represents a product that can be purchased within the the Simple Store Platform.
+A Product represents a something that can be purchased within the the Simple Store Platform.
 
 The Product object comprises both a standard set of default fields along with a flexible model to extend the product to meet your customisation needs.
 
@@ -65,7 +65,7 @@ The Product object comprises both a standard set of default fields along with a 
     </tr>
     <tr>
       <td style="text-align:left">Attributes</td>
-      <td style="text-align:left">Attributes are a list of Key/Value to support</td>
+      <td style="text-align:left">Attributes are a list of Key/Value to support customisation of a product</td>
     </tr>
     <tr>
       <td style="text-align:left">Categories</td>
@@ -92,11 +92,13 @@ The Product object comprises both a standard set of default fields along with a 
     </tr>
     <tr>
       <td style="text-align:left">BasePrice</td>
-      <td style="text-align:left">Base price defines the.... (see <a href="pricing.md">Pricing</a>)</td>
+      <td style="text-align:left">See <a href="pricing.md">Pricing</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">Price</td>
-      <td style="text-align:left">The price defines the.... (see <a href="pricing.md">Pricing</a>)</td>
+      <td style="text-align:left">See <a href="pricing.md">Pricing</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">BaseRewards</td>
