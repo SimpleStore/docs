@@ -18,7 +18,7 @@ The Product object comprises both a standard set of default fields along with a 
     </tr>
     <tr>
       <td style="text-align:left">Short Url</td>
-      <td style="text-align:left">A globally unique id identrifier (see <a href="../getting-started/quickbuy.md">QuickBuy</a>)</td>
+      <td style="text-align:left">A globally unique id identifier (see <a href="../getting-started/quickbuy.md">QuickBuy</a>)</td>
     </tr>
     <tr>
       <td style="text-align:left">Version</td>
