@@ -16,5 +16,5 @@ The pricing information that has been assigned to the product itself via the con
 
 ### Effective Price
 
-The effective price is the calculated price of the product after specials, discount or other modifiers have been applied to the product.
+The effective price is the calculated price of the product after specials, discount or other modifiers have been applied to the product.  It is accessible as a read only property on the Catalog &gt; Product API Responses
 

@@ -19,5 +19,5 @@ The base rewards pricing in points that has been assigned to the product via the
 
 ### Effective Rewards
 
-The effective rewards price is the calculated price in points of the product after specials, discounts or other modifiers have been applied to the product.
+The effective rewards price is the calculated price in points of the product after specials, discounts or other modifiers have been applied to the product. It is accessible as read only properties on the Catalog &gt; Product API Responses
 
