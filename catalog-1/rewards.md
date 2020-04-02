@@ -15,7 +15,7 @@ The rewards pricing information that has been assigned to the product itself.
 
 ### Rewards
 
-
+The rewards price is the effective rewards pricing of the product after specials, discount or other modifiers have been applied to the product.
 
 | Element | Description |  |
 | :--- | :--- | :--- |
