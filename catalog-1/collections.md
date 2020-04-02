@@ -35,6 +35,8 @@ Additional **Collection Details** can be specified including:
 
 ![](../.gitbook/assets/image%20%2810%29.png)
 
+#### Collection Properties
+
 | Element | Description |
 | :--- | :--- |
 | Collection Id | Internal Identifier for the collection |
