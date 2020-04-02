@@ -1,12 +1,12 @@
 # Inventory
 
+Simple store supports the optional tracking of product inventory.
 
-
-| Element | Description |  |
-| :--- | :--- | :--- |
-| Sku |  |  |
-| AvailableQuantity | How many available in stock |  |
-| MinActiveQuantity | If AvailableQuantity is below this value then the Product will not longer will be available \(OutOfStock\) |  |
-| GrossWeight |  | Not in console |
-| TrackInventory | True\|False |  |
+| Element | Description |
+| :--- | :--- |
+| Sku | Stock-keeping unit of product |
+| AvailableQuantity | How many available in stock |
+| MinActiveQuantity | If AvailableQuantity is below this value then the Product will not longer will be available \(Status = Out Of Stock\) |
+| GrossWeight | Gross weight of the product |
+| TrackInventory | Enable tracking of inventory \(true\|false\) |
 
