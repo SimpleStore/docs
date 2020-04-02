@@ -11,7 +11,7 @@ Examples of collections could be:
 
 Assess the **Collection** screen in the console via the console navigation bar.
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 
 

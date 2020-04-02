@@ -25,7 +25,7 @@ Additional product **Details** can be specified including:
 * Categories \(see [Categories](../catalog-1/categories.md)\)
 * Collections \(see [Collections](../catalog-1/collections.md)\)
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 
 
@@ -41,7 +41,7 @@ _Where rewards capability is enabled_
 
 **Optional:** In the Rewards Tab specify if the Product can be redeemed for Points or Currency.
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 ### Attributes
 
