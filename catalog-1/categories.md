@@ -1,42 +1,31 @@
 # Categories
 
-Products can be assigned to one or more categories which classify products into groups which could represent:
+Specials define rule based price modifiers to support discounting of products.
 
-* Type of Product for example a "Toaster" category containing one or many Toasters.
-* Products belonging to a special offer for example a "Special Deals" category contain one or many products with special pricing.
-* Products assigned to be presented in a specific location within a channel, for example "Home Page Banner" for all products that are assigned to appear on a Banner on the Home Page of a website.
+Specials can be either a **percentage** or a **fixed** amount.
 
-### Accessing Categories 
+Specials apply for a specified date range
 
-Assess the **Categories** screen in the console via the console navigation bar.
+Specials can be applied to:
 
-![](../.gitbook/assets/image%20%289%29.png)
+* **Products** - specific products
+* **Categories** - all Products assigned to a category
+* **Collections** - all Products assigned to a collection
 
-### Add New Category
-
-Specified a Name for the category.
-
-Click **New Category** to create the new category.
-
-![](../.gitbook/assets/image%20%2814%29.png)
-
-### Edit Categories
-
-Additional **Category Details** can be specified including:
-
-![](../.gitbook/assets/image%20%282%29.png)
-
-#### Category Properties
+#### Specials Properties
 
 | Element | Description |
 | :--- | :--- |
-| Category Id | Internal Identifier for the category |
-| Name | Name of the category |
-| Slug | A Url slug to access the category |
-| Description | A Description for the category |
-| Attributes | One or more key/value pairs |
-| Parent Category | A parent category to support the creation of a hierarchical/tree based structure of related categories |
-| Images | Image \(assets\) assigned to a category |
-
-Click **Save** to commit your modifications.
+| Special Id | Internal Identifier for the special |
+| Name | Name for the special |
+| Description | Description for the special |
+| Special Type | Percentage or Fixed Amount |
+| Amount | Amount of special, unit based on Special Type |
+| Start Date | Start date for the special |
+| End Date | End date for the special |
+| **Rules** |  |
+| Categories | Categories that the special applies to \(see [Categories](categories.md)\), if a Product is assigned to these categories then the special is applied |
+| Collections | Collections that the special applies to \(see [Categories](categories.md)\), if a Product is assigned to these categories then the special is applied |
+| Products |  |
+| Attributes | One or more key/value pairs to support customisation of specials |
 

@@ -12,5 +12,20 @@ Specials can be applied to:
 * **Categories** - all Products assigned to a category
 * **Collections** - all Products assigned to a collection
 
+#### Specials Properties
 
+| Element | Description |
+| :--- | :--- |
+| Special Id | Internal Identifier for the special |
+| Name | Name for the special |
+| Description | Description for the special |
+| Special Type | Percentage or Fixed Amount |
+| Amount | Amount of special, unit based on Special Type |
+| Start Date | Start date for the special |
+| End Date | End date for the special |
+| Attributes | One or more key/value pairs to support customisation of specials |
+| **Rules** |  |
+| Categories | Categories that the special applies to \(see [Categories](../categories.md)\), if a Product is assigned to these categories then the special is applied |
+| Collections | Collections that the special applies to \(see [Specials](./)\), if a Product is assigned to these collections then the special is applied |
+| Products | Products that the special applies to |
 

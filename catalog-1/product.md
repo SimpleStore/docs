@@ -4,6 +4,8 @@ A Product represents something that can be purchased within the the Simple Store
 
 The Product object comprises both a standard set of default fields along with a flexible model to extend the product to meet your customisation needs.
 
+#### Product Properties
+
 <table>
   <thead>
     <tr>
