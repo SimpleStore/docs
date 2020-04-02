@@ -2,6 +2,8 @@
 
 Optionally SimpleStore supports the tracking of product inventory.
 
+![](../.gitbook/assets/image%20%2812%29.png)
+
 The following elements can be specified for management of inventory:
 
 #### Inventory Properties

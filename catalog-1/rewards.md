@@ -4,6 +4,8 @@ Optionally the Simple Store platform supports rewards based pricing of products 
 
 The rewards pricing of products comprises a specified base rewards price and a dynamically calculated effective rewards price.
 
+![](../.gitbook/assets/image%20%2813%29.png)
+
 ### Base Rewards Pricing
 
 The base rewards pricing in points that has been assigned to the product via the console/api.
