@@ -14,5 +14,5 @@ The pricing information that has been assigned to the product itself.
 
 ### Price
 
-The price is the effective of the product after specials, discount or other modifiers have been applied to the product.
+The price is the effective price of the product after specials, discount or other modifiers have been applied to the product.
 
