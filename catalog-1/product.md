@@ -37,8 +37,10 @@ The Product object comprises both a standard set of default fields along with a 
       <td style="text-align:left">
         <p>Dictionary (key, value) of alternate Titles other languages to support
           internationalisation (i18n) and localisation (l10n):</p>
-        <p>Key = ja-JP
-          <br />Value = &lt;Title in Japanese&gt;</p>
+        <ul>
+          <li>Key = ja-JP</li>
+          <li>Value = &lt;Title in Japanese&gt;</li>
+        </ul>
       </td>
     </tr>
     <tr>
@@ -46,13 +48,15 @@ The Product object comprises both a standard set of default fields along with a 
       <td style="text-align:left">
         <p>Dictionary (key, value) of alternate Descriptions other languages to support
           internationalisation (i18n) and localisation (l10n), for example:</p>
-        <p>Key = ja-JP
-          <br />Value = &lt;Title in Japanese&gt;</p>
+        <ul>
+          <li>Key = ja-JP</li>
+          <li>Value = &lt;Description in Japanese&gt;</li>
+        </ul>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">IsActive</td>
-      <td style="text-align:left">True or False</td>
+      <td style="text-align:left">Active (True) or InActive (False)</td>
     </tr>
     <tr>
       <td style="text-align:left">Status</td>
