@@ -1,6 +1,8 @@
 # Inventory
 
-Simple store supports the optional tracking of product inventory.
+Optionally SimpleStore supports the tracking of product inventory.
+
+The following elements can be specified for management of inventory:
 
 | Element | Description |
 | :--- | :--- |
