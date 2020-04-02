@@ -4,6 +4,8 @@ Optionally SimpleStore supports the tracking of product inventory.
 
 The following elements can be specified for management of inventory:
 
+#### Inventory Properties
+
 | Element | Description |
 | :--- | :--- |
 | Sku | Stock-keeping unit of product |
