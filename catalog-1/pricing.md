@@ -4,7 +4,7 @@ Pricing of products comprise a specified base price and a dynamically calculated
 
 ### Base Price
 
-The pricing information that has been assigned to the product itself via the console.
+The pricing information that has been assigned to the product itself via the console/api.
 
 | Element | Description |
 | :--- | :--- |

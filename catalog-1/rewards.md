@@ -1,21 +1,12 @@
 # Rewards
 
+Optionally the Simple Store platform supports rewards based pricing of products to support the purchase of product with points.
 
+The rewards pricing of products comprises a specified base rewards price and a dynamically calculated effective rewards price.
 
-### Base Rewards
+### Base Rewards Pricing
 
-The rewards pricing information that has been assigned to the product itself.
-
-| Element | Description |
-| :--- | :--- |
-| IsEnabled | Rewards pricing is enabled |
-| Points | Product price in points |
-| MinPayAmount | Minimum payment amount for purchase  |
-| MinPointsAmount | Minimum points amount for purchase  |
-
-### Rewards
-
-The rewards price is the effective rewards pricing of the product after specials, discount or other modifiers have been applied to the product.
+The base rewards pricing in points that has been assigned to the product via the console/api.
 
 | Element | Description |
 | :--- | :--- |
@@ -23,4 +14,8 @@ The rewards price is the effective rewards pricing of the product after specials
 | Points | Product price in points |
 | MinPayAmount | Minimum payment amount for purchase  |
 | MinPointsAmount | Minimum points amount for purchase  |
+
+### Effective Rewards
+
+The effective rewards price is the calculated price in points of the product after specials, discounts or other modifiers have been applied to the product.
 
