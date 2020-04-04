@@ -2,7 +2,7 @@
 
 Optionally SimpleStore supports the tracking of product inventory.
 
-### Console View
+### Portal View
 
 ![](../.gitbook/assets/image%20%2812%29.png)
 

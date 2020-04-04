@@ -2,7 +2,7 @@
 
 Pricing of products comprise a specified base price and a dynamically calculated effective price.
 
-### Console View
+### Portal View
 
 ![](../.gitbook/assets/image%20%2825%29.png)
 

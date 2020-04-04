@@ -6,7 +6,7 @@ The Product object comprises both a standard set of default fields along with a 
 
 The Product can be associated with Categories, Collection, Assets and Attributes.
 
-### Console View
+### Portal View
 
 ![](../.gitbook/assets/image%20%2819%29.png)
 
