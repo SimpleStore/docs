@@ -1,8 +1,8 @@
-# The Console
+# Portal
 
-The Console....
+The Portal provides a user interface to support the management of your entire store.
 
-[https://portal.simplestore.io/login](https://portal.simplestore.io/login)
+Access to the portal at: [https://portal.simplestore.io/login](https://portal.simplestore.io/login)
 
 ![](../.gitbook/assets/image%20%285%29.png)
 

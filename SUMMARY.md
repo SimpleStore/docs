@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-* [The Console](getting-started/introduction.md)
+* [Portal](getting-started/introduction.md)
 * [Creating Your First Product](getting-started/untitled.md)
 * [QuickBuy](getting-started/quickbuy.md)
 
