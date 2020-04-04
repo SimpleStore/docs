@@ -47,7 +47,64 @@ Click **Save** to commit your modifications.
 
 {% tab title="Sample Object" %}
 ```text
-
+{
+  "categoryId": "string",
+  "version": "string",
+  "slug": "string",
+  "name": "string",
+  "description": "string",
+  "names": {
+    "additionalProp1": "string",
+    "additionalProp2": "string",
+    "additionalProp3": "string"
+  },
+  "descriptions": {
+    "additionalProp1": "string",
+    "additionalProp2": "string",
+    "additionalProp3": "string"
+  },
+  "parentId": "string",
+  "parentName": "string",
+  "itemCount": 0,
+  "attributes": {},
+  "children": [
+    {
+      "categoryId": "string",
+      "name": "string",
+      "slug": "string",
+      "names": {
+        "additionalProp1": "string",
+        "additionalProp2": "string",
+        "additionalProp3": "string"
+      }
+    }
+  ],
+  "totalChildren": 0,
+  "sibling": [
+    {
+      "categoryId": "string",
+      "name": "string",
+      "slug": "string",
+      "names": {
+        "additionalProp1": "string",
+        "additionalProp2": "string",
+        "additionalProp3": "string"
+      }
+    }
+  ],
+  "totalSibling": 0,
+  "isActive": true,
+  "files": [
+    {
+      "fileId": "string",
+      "contentType": "string",
+      "accessPermission": "string",
+      "accessUrl": "string",
+      "attributes": {},
+      "edgeUrl": "string"
+    }
+  ]
+}
 ```
 {% endtab %}
 {% endtabs %}

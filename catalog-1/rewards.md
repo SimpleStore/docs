@@ -24,7 +24,12 @@ The base rewards pricing in points that has been assigned to the product via the
 
 {% tab title="Sample Object" %}
 ```text
-
+{
+    "isEnabled":	boolean
+    "points":	integer($int32)
+    "minPayAmount":	number($decimal)
+    "minPointsAmount":	number($decimal)
+}
 ```
 {% endtab %}
 {% endtabs %}

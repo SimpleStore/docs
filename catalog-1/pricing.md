@@ -21,7 +21,12 @@ The pricing information that has been assigned to the product itself via the con
 
 {% tab title="Sample Object" %}
 ```text
-
+{
+    "currencyCode":	"string"
+    "sellPrice":	number($decimal)
+    "retailPrice":	number($decimal)
+    "attributes":	{...}
+}
 ```
 {% endtab %}
 {% endtabs %}

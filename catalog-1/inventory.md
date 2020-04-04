@@ -23,7 +23,13 @@ The following elements can be specified for management of inventory:
 
 {% tab title="Sample Object" %}
 ```text
-
+{
+    "sku":	"string"
+    "availableQuantity":		number($double)
+    "minActiveQuantity":		number($double)
+    "grossWeight":		number($double)
+    "trackInventory":		boolean
+}
 ```
 {% endtab %}
 {% endtabs %}

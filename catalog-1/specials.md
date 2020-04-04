@@ -14,7 +14,7 @@ Specials can be applied to:
 
 ### Portal View
 
-\[ToDO\]
+\[INSERT IMAGES\]
 
 #### Specials Properties
 
@@ -37,7 +37,27 @@ Specials can be applied to:
 {% endtab %}
 
 {% tab title="Sample Object" %}
-
+```text
+{
+    "specialId":	string
+     "version	string
+    "nullable: true
+    "name	string
+    "nullable: true
+    "description	string
+    nullable: true
+    isActive	boolean
+    startOnUtc	string($date-time)
+    endOnUtc	string($date-time)
+    nullable: true
+    specialType	SpecialTypestring
+    Enum:
+    Array [ 2 ]
+    amount	number($decimal)
+    rules	[...]
+    attributes	{...}
+}
+```
 {% endtab %}
 {% endtabs %}
 

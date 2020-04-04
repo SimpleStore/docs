@@ -54,7 +54,26 @@ Click **Save** to commit your modifications.
 
 {% tab title="Sample Object" %}
 ```text
-
+{
+  "collectionId": "string",
+  "version": "string",
+  "name": "string",
+  "slug": "string",
+  "description": "string",
+  "names": {
+    "additionalProp1": "string",
+    "additionalProp2": "string",
+    "additionalProp3": "string"
+  },
+  "descriptions": {
+    "additionalProp1": "string",
+    "additionalProp2": "string",
+    "additionalProp3": "string"
+  },
+  "isActive": true,
+  "totalItems": 0,
+  "attributes": {}
+}
 ```
 {% endtab %}
 {% endtabs %}
