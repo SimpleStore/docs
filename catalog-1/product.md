@@ -4,10 +4,16 @@ A Product represents something that can be purchased within the the Simple Store
 
 The Product object comprises both a standard set of default fields along with a flexible model to extend the product to meet your customisation needs.
 
+The Product can be associated with Categories, Collection, Assets and Attributes.
+
+### Console View
+
 ![](../.gitbook/assets/image%20%2819%29.png)
 
-#### Product Properties
+### Product Properties
 
+{% tabs %}
+{% tab title="Attributes" %}
 <table>
   <thead>
     <tr>
@@ -125,3 +131,15 @@ The Product object comprises both a standard set of default fields along with a 
     </tr>
   </tbody>
 </table>
+{% endtab %}
+
+{% tab title="Sample Object" %}
+```text
+{
+}
+```
+{% endtab %}
+{% endtabs %}
+
+#### 
+

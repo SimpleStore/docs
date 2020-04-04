@@ -2,12 +2,16 @@
 
 Optionally SimpleStore supports the tracking of product inventory.
 
+### Console View
+
 ![](../.gitbook/assets/image%20%2812%29.png)
 
 The following elements can be specified for management of inventory:
 
-#### Inventory Properties
+### Inventory Properties
 
+{% tabs %}
+{% tab title="Attributes" %}
 | Element | Description |
 | :--- | :--- |
 | Sku | Stock-keeping unit of product |
@@ -15,4 +19,16 @@ The following elements can be specified for management of inventory:
 | MinActiveQuantity | If AvailableQuantity is below this value then the Product will not longer will be available \(Status = Out Of Stock\) |
 | GrossWeight | Gross weight of the product |
 | TrackInventory | Enable tracking of inventory \(true\|false\) |
+{% endtab %}
+
+{% tab title="Sample Object" %}
+```text
+
+```
+{% endtab %}
+{% endtabs %}
+
+|  |
+| :--- |
+
 

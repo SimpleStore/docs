@@ -2,17 +2,29 @@
 
 Pricing of products comprise a specified base price and a dynamically calculated effective price.
 
+### Console View
+
 ![](../.gitbook/assets/image%20%2825%29.png)
 
 ### Base Price
 
 The pricing information that has been assigned to the product itself via the console/api.
 
+{% tabs %}
+{% tab title="Attributes" %}
 | Element | Description |
 | :--- | :--- |
 | CurrencyCode | ISO Currency code |
 | SellPrice  | Is the advertised Price present to customer \(excluding specials, discounts or other modifiers\) |
 | RetailPrice | Optional: Retail Price is the Recommended Retail Price \(RRP\)  |
+{% endtab %}
+
+{% tab title="Sample Object" %}
+```text
+
+```
+{% endtab %}
+{% endtabs %}
 
 ### Effective Price
 

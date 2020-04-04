@@ -37,6 +37,8 @@ Additional **Collection Details** can be specified including:
 
 #### Collection Properties
 
+{% tabs %}
+{% tab title="Attributes" %}
 | Element | Description |
 | :--- | :--- |
 | Collection Id | Internal Identifier for the collection |
@@ -44,6 +46,14 @@ Additional **Collection Details** can be specified including:
 | Slug | A Url slug to accese the collection |
 | Description | A Description for the collection |
 | Attributes | One or more key/value pairs |
+{% endtab %}
+
+{% tab title="Sample Object" %}
+```text
+
+```
+{% endtab %}
+{% endtabs %}
 
 Click **Save** to commit your modifications.
 
