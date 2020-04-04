@@ -12,7 +12,7 @@ Specials can be applied to:
 * **Categories** - all Products assigned to a category
 * **Collections** - all Products assigned to a collection
 
-### Console View
+### Portal View
 
 \[ToDO\]
 

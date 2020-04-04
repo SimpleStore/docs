@@ -7,7 +7,9 @@ Examples of collections could be:
 * Winter Collection
 * Premium Collection
 
-### View Collections
+### Portal View
+
+#### View Collections
 
 Assess the **Collection** screen in the console via the console navigation bar.
 
@@ -15,7 +17,7 @@ Assess the **Collection** screen in the console via the console navigation bar.
 
 
 
-### Add New Collection
+#### Add New Collection
 
 Click **Add New** to create a new collection
 
@@ -29,13 +31,15 @@ Click **Submit** to create the new collection.
 
 
 
-### Edit Collection
+#### Edit Collection
 
 Additional **Collection Details** can be specified including:
 
 ![](../.gitbook/assets/image%20%2811%29.png)
 
-#### Collection Properties
+Click **Save** to commit your modifications.
+
+### Collection Properties
 
 {% tabs %}
 {% tab title="Attributes" %}
@@ -55,5 +59,5 @@ Additional **Collection Details** can be specified including:
 {% endtab %}
 {% endtabs %}
 
-Click **Save** to commit your modifications.
+
 
