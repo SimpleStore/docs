@@ -1,19 +1,11 @@
 # Categories
 
-Specials define rule based price modifiers to support discounting of products.
 
-Specials can be either a **percentage** or a **fixed** amount.
 
-Specials apply for a specified date range
+#### Category Properties
 
-Specials can be applied to:
-
-* **Products** - specific products
-* **Categories** - all Products assigned to a category
-* **Collections** - all Products assigned to a collection
-
-#### Specials Properties
-
+{% tabs %}
+{% tab title="Attributes" %}
 | Element | Description |
 | :--- | :--- |
 | Special Id | Internal Identifier for the special |
@@ -28,4 +20,12 @@ Specials can be applied to:
 | Collections | Collections that the special applies to \(see [Categories](categories.md)\), if a Product is assigned to these categories then the special is applied |
 | Products |  |
 | Attributes | One or more key/value pairs to support customisation of specials |
+{% endtab %}
+
+{% tab title="Sample Object" %}
+```text
+
+```
+{% endtab %}
+{% endtabs %}
 
