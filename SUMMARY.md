@@ -6,6 +6,7 @@
 
 * [Portal](getting-started/introduction/README.md)
   * [Environments](getting-started/introduction/environments.md)
+  * [Configuring Your Store](getting-started/introduction/configuring-your-store.md)
 * [Creating Your First Product](getting-started/untitled.md)
 * [QuickBuy](getting-started/quickbuy.md)
 
