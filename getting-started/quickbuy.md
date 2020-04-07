@@ -17,7 +17,11 @@ To enable quick but navigate to the Product Details screen and click "Get Quick 
 
 This will generate a quick buy url:
 
+![](../.gitbook/assets/image%20%2816%29.png)
 
 
-Which you can assess and post anywhere to ....
+
+Which you can post anywhere to sell your product:
+
+![](../.gitbook/assets/image%20%2811%29.png)
 

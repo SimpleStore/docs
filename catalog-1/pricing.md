@@ -4,7 +4,7 @@ Pricing of products comprise a specified base price and a dynamically calculated
 
 ### Portal View
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 ### Base Price
 
