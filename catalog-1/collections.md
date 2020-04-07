@@ -13,7 +13,7 @@ Examples of collections could be:
 
 Assess the **Collection** screen in the console via the console navigation bar.
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 
 
@@ -35,7 +35,7 @@ Click **Submit** to create the new collection.
 
 Additional **Collection Details** can be specified including:
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 Click **Save** to commit your modifications.
 

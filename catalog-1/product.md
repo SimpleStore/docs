@@ -8,7 +8,7 @@ The Product can be associated with Categories, Collection, Assets and Attributes
 
 ### Portal View
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 ### Product Properties
 

@@ -14,7 +14,37 @@ Specials can be applied to:
 
 ### Portal View
 
-\[INSERT IMAGES\]
+#### View Specials
+
+Assess the **Special** screen in the console via the console navigation bar.
+
+![](../.gitbook/assets/image%20%289%29.png)
+
+#### Add New Special
+
+Click **Add New** to create a new special
+
+![](../.gitbook/assets/image%20%2825%29.png)
+
+Specified a:
+
+* Name
+* Description
+* Special Type: Percentage or Fixed Amount
+* Amount \(based on Special Type\)
+* Date Range \(from and to\)
+
+Click **Submit** to create the new special.
+
+![](../.gitbook/assets/image%20%2818%29.png)
+
+#### Edit Special 
+
+Additional **Details** are specified including the definition of Rules that determined which products specials apply to.  Specials can apply to specific products or all products assigned to specifed Categories or Collections.
+
+![](../.gitbook/assets/image%20%2832%29.png)
+
+Click **Save** to commit your modifications.
 
 #### Specials Properties
 

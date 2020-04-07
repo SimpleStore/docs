@@ -6,7 +6,7 @@ The rewards pricing of products comprises a specified base rewards price and a d
 
 ### Portal View
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 ### Base Rewards Pricing Properties
 
