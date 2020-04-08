@@ -23,6 +23,10 @@ The Product can be associated with Categories, Collection, Assets and Attributes
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">ProductId</td>
+      <td style="text-align:left">Unique Identifer for the Product</td>
+    </tr>
+    <tr>
       <td style="text-align:left">Slug</td>
       <td style="text-align:left">A Url slug used to identify a product</td>
     </tr>
