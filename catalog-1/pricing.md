@@ -14,9 +14,9 @@ The pricing information that has been assigned to the product itself via the con
 {% tab title="Attributes" %}
 | Element | Description |
 | :--- | :--- |
-| CurrencyCode | ISO Currency code |
-| SellPrice  | Is the advertised Price present to customer \(excluding specials, discounts or other modifiers\) |
-| RetailPrice | Optional: Retail Price is the Recommended Retail Price \(RRP\)  |
+| currencyCode | ISO Currency code |
+| sellPrice  | Is the advertised Price present to customer \(excluding specials, discounts or other modifiers\) |
+| retailPrice | Optional: Retail Price is the Recommended Retail Price \(RRP\)  |
 {% endtab %}
 
 {% tab title="Sample Object" %}

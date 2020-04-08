@@ -23,31 +23,31 @@ The Product can be associated with Categories, Collection, Assets and Attributes
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">ProductId</td>
+      <td style="text-align:left">productId</td>
       <td style="text-align:left">Unique Identifer for the Product</td>
     </tr>
     <tr>
-      <td style="text-align:left">Slug</td>
+      <td style="text-align:left">slug</td>
       <td style="text-align:left">A Url slug used to identify a product</td>
     </tr>
     <tr>
-      <td style="text-align:left">Short Url</td>
+      <td style="text-align:left">shortUrl</td>
       <td style="text-align:left">A globally unique id identifier (see <a href="../getting-started/quickbuy.md">QuickBuy</a>)</td>
     </tr>
     <tr>
-      <td style="text-align:left">Version</td>
+      <td style="text-align:left">version</td>
       <td style="text-align:left">An incremental version number tracking changes to the Product configuration</td>
     </tr>
     <tr>
-      <td style="text-align:left">Title</td>
+      <td style="text-align:left">title</td>
       <td style="text-align:left">Default Title for the Product</td>
     </tr>
     <tr>
-      <td style="text-align:left">Description</td>
+      <td style="text-align:left">description</td>
       <td style="text-align:left">Default Description for the Product</td>
     </tr>
     <tr>
-      <td style="text-align:left">Titles</td>
+      <td style="text-align:left">titles</td>
       <td style="text-align:left">
         <p>Dictionary (key, value) of alternate Titles other languages to support
           internationalisation (i18n) and localisation (l10n):</p>
@@ -58,7 +58,7 @@ The Product can be associated with Categories, Collection, Assets and Attributes
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Descriptions</td>
+      <td style="text-align:left">descriptions</td>
       <td style="text-align:left">
         <p>Dictionary (key, value) of alternate Descriptions other languages to support
           internationalisation (i18n) and localisation (l10n), for example:</p>
@@ -69,11 +69,11 @@ The Product can be associated with Categories, Collection, Assets and Attributes
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">IsActive</td>
+      <td style="text-align:left">isActive</td>
       <td style="text-align:left">Active (True) or InActive (False)</td>
     </tr>
     <tr>
-      <td style="text-align:left">Status</td>
+      <td style="text-align:left">status</td>
       <td style="text-align:left">
         <p>Available = Product is Available</p>
         <p>Out Of Stock = Product is Out of Stock</p>
@@ -82,23 +82,23 @@ The Product can be associated with Categories, Collection, Assets and Attributes
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Attributes</td>
+      <td style="text-align:left">attributes</td>
       <td style="text-align:left">Attributes are a list of Key/Value to support customisation of a product</td>
     </tr>
     <tr>
-      <td style="text-align:left">Categories</td>
+      <td style="text-align:left">categories</td>
       <td style="text-align:left">One or many categories the Product is assigned to (see <a href="categories.md">Categories</a>)</td>
     </tr>
     <tr>
-      <td style="text-align:left">Collections</td>
+      <td style="text-align:left">collections</td>
       <td style="text-align:left">One or many collections the Product is assigned to (see <a href="collections.md">Collections</a>)</td>
     </tr>
     <tr>
-      <td style="text-align:left">Files</td>
+      <td style="text-align:left">files[]</td>
       <td style="text-align:left">One or many assets associated with the Product (see <a href="../assets-1/assets.md">Assets</a>)</td>
     </tr>
     <tr>
-      <td style="text-align:left">Payment Method</td>
+      <td style="text-align:left">paymentMethod</td>
       <td style="text-align:left">
         <p>Defines the supported payment methods for a product:</p>
         <p>CurrencyOnly = Can be paid with by currency ONLY, not eligible to be paid
@@ -109,27 +109,27 @@ The Product can be associated with Categories, Collection, Assets and Attributes
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">BasePrice</td>
+      <td style="text-align:left">basePrice</td>
       <td style="text-align:left">See <a href="pricing.md">Pricing</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Price</td>
+      <td style="text-align:left">price</td>
       <td style="text-align:left">See <a href="pricing.md">Pricing</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">BaseRewards</td>
+      <td style="text-align:left">baseRewards</td>
       <td style="text-align:left">See <a href="rewards.md">Rewards </a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Rewards</td>
+      <td style="text-align:left">rewards</td>
       <td style="text-align:left">See <a href="rewards.md">Rewards </a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Inventory</td>
+      <td style="text-align:left">inventory</td>
       <td style="text-align:left">See <a href="inventory.md">Inventory</a>
       </td>
     </tr>

@@ -36,13 +36,13 @@ Click **Save** to commit your modifications.
 {% tab title="Attributes" %}
 | Element | Description |
 | :--- | :--- |
-| Category Id | Internal Identifier for the category |
-| Name | Name of the category |
-| Slug | A Url slug to access the category |
-| Description | A Description for the category |
-| Attributes | One or more key/value pairs |
-| Parent Category | A parent category to support the creation of a hierarchical/tree based structure of related categories |
-| Images | Image \(assets\) assigned to a category |
+| categoryId | Internal Identifier for the category |
+| name | Name of the category |
+| slug | A Url slug to access the category |
+| description | A Description for the category |
+| attributes | One or more key/value pairs |
+| parent Category | A parent category to support the creation of a hierarchical/tree based structure of related categories |
+| images | Image \(assets\) assigned to a category |
 {% endtab %}
 
 {% tab title="Sample Object" %}

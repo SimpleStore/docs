@@ -14,11 +14,11 @@ The following elements can be specified for management of inventory:
 {% tab title="Attributes" %}
 | Element | Description |
 | :--- | :--- |
-| Sku | Stock-keeping unit of product |
-| AvailableQuantity | How many available in stock |
-| MinActiveQuantity | If AvailableQuantity is below this value then the Product will not longer will be available \(Status = Out Of Stock\) |
-| GrossWeight | Gross weight of the product |
-| TrackInventory | Enable tracking of inventory \(true\|false\) |
+| sku | Stock-keeping unit of product |
+| availableQuantity | How many available in stock |
+| minActiveQuantity | If AvailableQuantity is below this value then the Product will not longer will be available \(Status = Out Of Stock\) |
+| grossWeight | Gross weight of the product |
+| trackInventory | Enable tracking of inventory \(true\|false\) |
 {% endtab %}
 
 {% tab title="Sample Object" %}

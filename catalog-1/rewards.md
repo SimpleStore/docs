@@ -16,10 +16,10 @@ The base rewards pricing in points that has been assigned to the product via the
 {% tab title="Attributes" %}
 | Element | Description |
 | :--- | :--- |
-| IsEnabled | Rewards pricing is enabled |
-| Points | Product price in points |
-| MinPayAmount | Minimum payment amount for purchase  |
-| MinPointsAmount | Minimum points amount for purchase  |
+| isEnabled | Rewards pricing is enabled |
+| points | Product price in points |
+| minPayAmount | Minimum payment amount for purchase  |
+| minPointsAmount | Minimum points amount for purchase  |
 {% endtab %}
 
 {% tab title="Sample Object" %}

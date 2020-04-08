@@ -52,18 +52,18 @@ Click **Save** to commit your modifications.
 {% tab title="Attributes" %}
 | Element | Description |
 | :--- | :--- |
-| Special Id | Internal Identifier for the special |
-| Name | Name for the special |
-| Description | Description for the special |
-| Special Type | Percentage or Fixed Amount |
-| Amount | Amount of special, unit based on Special Type |
-| Start Date | Start date for the special |
-| End Date | End date for the special |
-| Attributes | One or more key/value pairs to support customisation of specials |
+| specialId | Internal Identifier for the special |
+| name | Name for the special |
+| description | Description for the special |
+| specialType | Percentage or Fixed Amount |
+| amount | Amount of special, unit based on Special Type |
+| startDate | Start date for the special |
+| endDate | End date for the special |
+| attributes | One or more key/value pairs to support customisation of specials |
 | **Rules** |  |
-| Categories | Categories that the special applies to \(see [Categories](categories.md)\), if a Product is assigned to these categories then the special is applied |
-| Collections | Collections that the special applies to \(see [Specials](specials.md)\), if a Product is assigned to these collections then the special is applied |
-| Products | Products that the special applies to |
+| categories | Categories that the special applies to \(see [Categories](categories.md)\), if a Product is assigned to these categories then the special is applied |
+| collections | Collections that the special applies to \(see [Specials](specials.md)\), if a Product is assigned to these collections then the special is applied |
+| products | Products that the special applies to |
 {% endtab %}
 
 {% tab title="Sample Object" %}

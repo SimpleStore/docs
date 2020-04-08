@@ -45,11 +45,11 @@ Click **Save** to commit your modifications.
 {% tab title="Attributes" %}
 | Element | Description |
 | :--- | :--- |
-| Collection Id | Internal Identifier for the collection |
-| Name | Name of the collection |
-| Slug | A Url slug to accese the collection |
-| Description | A Description for the collection |
-| Attributes | One or more key/value pairs |
+| collectionId | Internal Identifier for the collection |
+| name | Name of the collection |
+| slug | A Url slug to accese the collection |
+| description | A Description for the collection |
+| attributes | One or more key/value pairs |
 {% endtab %}
 
 {% tab title="Sample Object" %}
