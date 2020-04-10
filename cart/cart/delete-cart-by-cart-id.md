@@ -1,6 +1,6 @@
 # Delete Cart By Cart Id
 
-Deleted the Cart by the Unique Cart Identifer. 
+Deletes the Cart by the Unique Cart Identifer. 
 
 ### **DELETE**
 
