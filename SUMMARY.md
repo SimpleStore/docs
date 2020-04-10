@@ -40,6 +40,7 @@
   * [Checkout](cart/cart/checkout.md)
   * [Create Cart Item](cart/cart/create-cart-item.md)
   * [Delete Cart Item](cart/cart/delete-cart-item.md)
+  * [Calculate Shipping](cart/cart/calculate-shipping.md)
 * [Shipping](cart/shipping.md)
 
 ## Orders
