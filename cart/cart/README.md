@@ -1,6 +1,6 @@
 # Cart
 
-Simple Store supports a full ecommerce shopping cart.
+Simple Store supports a full ecommerce shopping cart object.
 
 {% tabs %}
 {% tab title="Attributes" %}
