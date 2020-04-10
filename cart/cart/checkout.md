@@ -14,22 +14,7 @@ Completes the check out process against the cart creating an order.
 | :--- | :--- | :--- |
 | cartId | guid/uuid | A unique identifier for the cart |
 
-```text
-{
-  "customerId": "string",
-  "customerEmail": "string",
-  "customerFirstName": "string",
-  "customerLastName": "string",
-  "purchaserName": "string",
-  "purchaserContactNumberLocal": "string",
-  "purchaserEmail": "string",
-  "receiverName": "string",
-  "receiverContactNumberLocal": "string",
-  "receiverEmail": "string"
-}
-```
-
-#### Request  Body
+#### Request:  Body
 
 {% tabs %}
 {% tab title="Request Object" %}
