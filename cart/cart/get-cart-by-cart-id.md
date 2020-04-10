@@ -1,6 +1,8 @@
 # Get Cart By Cart Id
 
-###  **GET**
+Retrieves the Cart by the Unique Cart Identifer. 
+
+### **GET**
 
 ```text
 /v1/cart/{CartId}
