@@ -14,16 +14,16 @@ A Cart after checkout becomes a Basket.
 | :--- | :--- |
 | cartId | Unique Identifier for the Cart |
 | items\[\] | An array of one or many items in the Cart |
-| item.productId | Unique Identifer for the Product \(see [Product](../../catalog-1/product.md)\) |
-| item.slug | Product Slug |
-| item.title | Product Title |
-| item.description | Product Description |
-| item.quanity | Quantity of Product |
-| item.paymentMethod | Payment Method |
-| item.totalCurrency | Product Total in Currency |
-| item.totalPoints | Product Total in Points |
-| item.files\[\] | See [Assets](../../assets-1/assets.md) |
-| item.attributes | One or more key/value pairs to support customisation of products |
+| items\[\].productId | Unique Identifer for the Product \(see [Product](../../catalog-1/product.md)\) |
+| items\[\].slug | Product Slug |
+| items\[\].title | Product Title |
+| items\[\].description | Product Description |
+| items\[\].quanity | Quantity of Product |
+| items\[\].paymentMethod | Payment Method |
+| items\[\].totalCurrency | Product Total in Currency |
+| items\[\].totalPoints | Product Total in Points |
+| items\[\].files\[\] | See [Assets](../../assets-1/assets.md) |
+| items\[\].attributes | One or more key/value pairs to support customisation of products |
 | currencyCode | ISO currency code |
 | shippingFee | Shipping Fee |
 | subTotalCurrency | Cart Total in Currency \(excluding Shipping\) |

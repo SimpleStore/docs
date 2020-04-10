@@ -21,7 +21,7 @@ Deletes an Item from the Cart.
 | Element | Type | Description |
 | :--- | :--- | :--- |
 | items | array | Cart Item Array |
-| item.productId | string | ProductId \(See [Product](../../catalog-1/product.md)\) |
+| items\[\].productId | string | ProductId \(See [Product](../../catalog-1/product.md)\) |
 {% endtab %}
 
 {% tab title="Sample Object" %}

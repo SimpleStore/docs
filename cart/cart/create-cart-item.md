@@ -22,8 +22,8 @@ Add a Product as an Item to the Cart.
 | :--- | :--- | :--- |
 | currencyCode | string | ISO Currency Code |
 | items | array | Cart Item Array |
-| item.productId | string | ProductId \(See [Product](../../catalog-1/product.md)\) |
-| item.quantity | int | Quantity of Product |
+| items\[\].productId | string | ProductId \(See [Product](../../catalog-1/product.md)\) |
+| items\[\].quantity | int | Quantity of Product |
 | attributes | object | Attributes are a list of Key/Value to support customisation of the cart items |
 {% endtab %}
 
