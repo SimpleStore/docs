@@ -4,26 +4,29 @@ Simple Store supports a full ecommerce shopping cart.
 
 {% tabs %}
 {% tab title="Attributes" %}
+
+
 | Element | Desciption |
 | :--- | :--- |
 | cartId | Unique Identifier for the Cart |
 | items\[\] | An array of one or many items in the Cart |
-| item.productId | Unique Identifer for the Product \(see [Product](../catalog-1/product.md)\) |
-| item.slug |  |
-| item.title |  |
-| item.description |  |
-| item.quanity |  |
-| item.paymentMethod |  |
-| item.totalCurrency |  |
-| item.totalPoints |  |
-| item.files\[\] | See [Assets](../assets-1/assets.md) |
-| item.attributes |  |
-| currencyCode |  |
-| shippingFee |  |
-| subTotalCurrency |  |
-| totalCurrency |  |
-| totalPoints |  |
-| attributes |  |
+| item.productId | Unique Identifer for the Product \(see [Product](../../catalog-1/product.md)\) |
+| item.slug | Product Slug |
+| item.title | Product Title |
+| item.description | Product Description |
+| item.quanity | Quantity of Product |
+| item.paymentMethod | Payment Method |
+| item.totalCurrency | Product Total in Currency |
+| item.totalPoints | Product Total in Points |
+| item.files\[\] | See [Assets](../../assets-1/assets.md) |
+| item.attributes | One or more key/value pairs to support customisation of products |
+| currencyCode | ISO currency code |
+| shippingFee | Shipping Fee |
+| subTotalCurrency | Cart Total in Currency \(excluding Shipping\) |
+| totalCurrency | Cart Total in Currency |
+| totalPoints | Cart Total in Points |
+| attributes | One or more key/value pairs to support customisation of cart |
+|  |  |
 {% endtab %}
 
 {% tab title="Sample Object" %}
