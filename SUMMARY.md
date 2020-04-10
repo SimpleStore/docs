@@ -42,6 +42,7 @@
   * [Delete Cart Item](cart/cart/delete-cart-item.md)
   * [Calculate Shipping](cart/cart/calculate-shipping.md)
   * [Completed Basket Search](cart/cart/completed-basket-search.md)
+  * [Get Complete Basket By Cart Id](cart/cart/get-complete-basket-by-cart-id.md)
 * [Shipping](cart/shipping.md)
 
 ## Orders
