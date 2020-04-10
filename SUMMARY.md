@@ -30,6 +30,7 @@
 
 * [Cart](cart/cart/README.md)
   * [Get Cart By Cart Id](cart/cart/get-cart-by-cart-id.md)
+  * [Delete Cart By Cart Id](cart/cart/delete-cart-by-cart-id.md)
 * [Shipping](cart/shipping.md)
 
 ## Orders
