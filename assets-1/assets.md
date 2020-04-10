@@ -78,13 +78,3 @@ Files represent the range of assets that can be stored and managed.
 {% endtab %}
 {% endtabs %}
 
-### 
-
-
-
-
-
-```text
-
-```
-
