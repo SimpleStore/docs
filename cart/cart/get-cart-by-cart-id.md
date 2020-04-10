@@ -14,6 +14,10 @@ Retrieves the Cart by the Unique Cart Identifer.
 | :--- | :--- | :--- |
 | cartId | guid/uuid | A unique identifier for the cart |
 
+#### Request: Query
+
+No Query
+
 #### Request: Body
 
 No request body

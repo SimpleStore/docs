@@ -14,6 +14,10 @@ Completes the check out process against the cart creating an order.
 | :--- | :--- | :--- |
 | cartId | guid/uuid | A unique identifier for the cart |
 
+#### Request: Query
+
+No Query
+
 #### Request:  Body
 
 {% tabs %}

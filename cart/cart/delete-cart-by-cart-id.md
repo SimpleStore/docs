@@ -18,6 +18,10 @@ Deletes the Cart by the Unique Cart Identifer.
 
 No request body
 
+#### Request: Query
+
+No Query
+
 #### Response: 204
 
 ```text

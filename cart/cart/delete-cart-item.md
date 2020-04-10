@@ -14,6 +14,10 @@ Deletes an Item from the Cart.
 | :--- | :--- | :--- |
 | cartId | guid/uuid | A unique identifier for the cart |
 
+#### Request: Query
+
+No Query
+
 #### Request:  Body
 
 {% tabs %}
