@@ -1,6 +1,6 @@
 # Checkout
 
-### 
+Completes the check out process against the cart creating an order.
 
 ### **POST**
 
@@ -36,15 +36,15 @@
 | Element | Type | Description |
 | :--- | :--- | :--- |
 | customerId | guid | Unique Identifer for Customer |
-| customerEmail | string |  |
-| customerFirstName | string |  |
-| customerLastName | string |  |
-| purchaserName | string |  |
-| purchaserContactNumberLocal | string |  |
-| purchaserEmail | string |  |
-| recieverName | string |  |
-| receiverContactNumberLocal | string |  |
-| receiverEmail | string |  |
+| customerEmail | string | Customer Email Address |
+| customerFirstName | string | Customer First Name |
+| customerLastName | string | Customer Last Name |
+| purchaserName | string | Purchaser \(Billing\) Name |
+| purchaserContactNumberLocal | string | Purchase  \(Billing\) Contact Number |
+| purchaserEmail | string | Purchase  \(Billing\) Email |
+| recieverName | string | Receiver \(Shipping\) Name |
+| receiverContactNumberLocal | string | Receiver \(Shipping\) Contact Number |
+| receiverEmail | string | Receiver \(Shipping\) Email |
 {% endtab %}
 
 {% tab title="Sample Object" %}
@@ -65,70 +65,56 @@
 {% endtab %}
 {% endtabs %}
 
-#### Response: 200
+#### Response: 200 Success
 
 {% tabs %}
 {% tab title="Response Object" %}
 | Element | Desciption |
 | :--- | :--- |
-| cartId | Unique Identifier for the Cart |
-| items\[\] | An array of one or many items in the Cart |
-| item.productId | Unique Identifer for the Product \(see [Product](../../catalog-1/product.md)\) |
-| item.slug | Product Slug |
-| item.title | Product Title |
-| item.description | Product Description |
-| item.quanity | Quantity of Product |
-| item.paymentMethod | Payment Method |
-| item.totalCurrency | Product Total in Currency |
-| item.totalPoints | Product Total in Points |
-| item.files\[\] | See [Assets](../../assets-1/assets.md) |
-| item.attributes | One or more key/value pairs to support customisation of products |
-| currencyCode | ISO currency code |
-| shippingFee | Shipping Fee |
-| subTotalCurrency | Cart Total in Currency \(excluding Shipping\) |
-| totalCurrency | Cart Total in Currency |
-| totalPoints | Cart Total in Points |
-| attributes | One or more key/value pairs to support customisation of cart |
-|  |  |
+| orderId | Unique Identifier for the Order |
+| customerId | Unique Identifier for the Customer |
 {% endtab %}
 
 {% tab title="Sample Object" %}
 ```text
 {
-  "cartId": "string",
-  "items": [
-    {
-      "productId": "string",
-      "slug": "string",
-      "title": "string",
-      "description": "string",
-      "quantity": 0,
-      "paymentMethod": "CurrencyOnly",
-      "totalCurrency": 0,
-      "totalPoints": 0,
-      "files": [
-        {
-          "fileId": "string",
-          "contentType": "string",
-          "accessPermission": "string",
-          "accessUrl": "string",
-          "attributes": {},
-          "edgeUrl": "string"
-        }
-      ],
-      "attributes": {}
-    }
-  ],
-  "currencyCode": "string",
-  "shippingFee": 0,
-  "subTotalCurrency": 0,
-  "totalCurrency": 0,
-  "totalPoints": 0,
-  "attributes": {}
+  "orderId": "string",
+  "customerId": "string"
+}
 
 ```
 {% endtab %}
 {% endtabs %}
+
+#### Response: 404 Not Found
+
+{% tabs %}
+{% tab title="Response Object" %}
+| Element | Type | Desciption |
+| :--- | :--- | :--- |
+| type | string |  |
+| title | string |  |
+| status | int |  |
+| detail | string |  |
+| instance | string |  |
+| extensions | object |  |
+{% endtab %}
+
+{% tab title="Sample Object" %}
+```text
+{
+  "type": "string",
+  "title": "string",
+  "status": 0,
+  "detail": "string",
+  "instance": "string",
+  "extensions": {}
+}
+```
+{% endtab %}
+{% endtabs %}
+
+#### 
 
 
 
