@@ -1,6 +1,6 @@
 # Create Cart Item
 
-Completes the check out process against the cart creating an order.
+Add a Product as an Item to the Cart.
 
 ### **POST**
 
