@@ -8,15 +8,15 @@
 /v1/cart/{CartId}
 ```
 
-#### Request \(Route\)
+#### Request: Route
 
-| Element | Type | Description |
+| Type | Description |  |
 | :--- | :--- | :--- |
 | cartId | guid/uuid | A unique identifier for the cart |
 
-```text
+#### Request: Body
+
 No request body
-```
 
 #### Response: 204
 

@@ -6,17 +6,19 @@
 /v1/cart/{CartId}
 ```
 
-#### Request \(Route\)
+#### Request: Route
 
 | Element | Type | Description |
 | :--- | :--- | :--- |
 | cartId | guid/uuid | A unique identifier for the cart |
 
-```text
+#### Request: Body
+
 No request body
-```
 
 #### Response: 200
+
+Success
 
 {% tabs %}
 {% tab title="Attributes" %}

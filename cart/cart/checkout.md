@@ -6,7 +6,7 @@
 /v1/cart/{CartId}
 ```
 
-#### Request \(Route\)
+#### Request: Route
 
 | Element | Type | Description |
 | :--- | :--- | :--- |
@@ -27,15 +27,22 @@
 }
 ```
 
-#### Request 
+#### Request  Body
 
 {% tabs %}
 {% tab title="Request Object" %}
-| Element | Desciption |
-| :--- | :--- |
-| cartId | Unique Identifier for the Cart |
-| items\[\] | An array of one or many items in the Cart |
-| item.productId | Unique Identifer for the Product \(see [Product](../../catalog-1/product.md)\) |
+| Element | Type | Description |
+| :--- | :--- | :--- |
+| customerId | guid | Unique Identifer for Customer |
+| customerEmail | string |  |
+| customerFirstName | string |  |
+| customerLastName | string |  |
+| purchaserName | string |  |
+| purchaserContactNumberLocal | string |  |
+| purchaserEmail | string |  |
+| recieverName | string |  |
+| receiverContactNumberLocal | string |  |
+| receiverEmail | string |  |
 {% endtab %}
 
 {% tab title="Sample Object" %}

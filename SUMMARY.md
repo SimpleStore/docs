@@ -10,6 +10,12 @@
 * [Creating Your First Product](getting-started/untitled.md)
 * [QuickBuy](getting-started/quickbuy.md)
 
+## API
+
+* [Authentication](authentication.md)
+* [Pagination](pagination.md)
+* [Swagger References](swagger.md)
+
 ## Catalog <a id="catalog-1"></a>
 
 * [Product](catalog-1/product.md)
@@ -42,10 +48,4 @@
 ## Customers
 
 * [Customers](customers/customers.md)
-
-## API
-
-* [Authentication](authentication.md)
-* [Swagger References](swagger.md)
-* [Pagination](pagination.md)
 
