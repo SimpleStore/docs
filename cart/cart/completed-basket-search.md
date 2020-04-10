@@ -2,7 +2,7 @@
 
 Searches for Baskets \(Carts that have completed checkout\)
 
-### **POST**
+### **GET**
 
 ```text
 /v1/basket
