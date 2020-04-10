@@ -1,6 +1,6 @@
 # Get Basket By Cart Id
 
-Searches for Baskets \(Carts that have completed checkout\)
+Searche for a Baskets \(a Cart that has completed checkout\) by Cart Id
 
 ### **GET**
 
@@ -10,17 +10,13 @@ Searches for Baskets \(Carts that have completed checkout\)
 
 #### Request: Route
 
-No Route Values
+| Element | Type | Description |
+| :--- | :--- | :--- |
+| CartId | guid | Unique Identifier for the Cart |
 
 #### Request: Query
 
-| Element | Type | Description |
-| :--- | :--- | :--- |
-| CartId | array | An array of cartId\(s\) |
-| IncludeItems | boolean | Include items in response |
-| IncludeAttributes | boolean | Include attributes in response |
-| PageSize | integer | Page Size.  The number of records returned. |
-| PageIndex | integer | Page Index.  The page of records returned. |
+No Query
 
 #### Request:  Body
 
@@ -34,35 +30,28 @@ No Request Body
 
 | Element |  | Desciption |
 | :--- | :--- | :--- |
-| result | array | array of carts |
-| result\[\].basketId | guid | Unique Identifier for the Cart |
-| result\[\].version | int | incremental version number of basket object |
-| result\[\].customerId | guid | Customer customerId |
-| result\[\].orderId | guid | Order orderId |
-| result\[\].status | string | status of Order |
-| result\[\].items\[\] | array | An array of one or many items in the Cart |
-| result\[\].items\[\].productId | guid | Unique Identifer for the Product \(see [Product](../../catalog-1/product.md)\) |
-| result\[\].items\[\].slug | string | Product Slug |
-| result\[\].items\[\].title | string | Product Title |
-| result\[\].items\[\].description | string | Product Description |
-| result\[\].items\[\].quanity | int | Quantity of Product |
-| result\[\].items\[\].paymentMethod | string | Payment Method |
-| result\[\].items\[\].totalCurrency | decimal | Product Total in Currency |
-| result\[\].items\[\].totalPoints | decimal | Product Total in Points |
-| result\[\].items\[\].files\[\] | array | See [Assets](../../assets-1/assets.md) |
-| result\[\].items\[\].attributes | object | One or more key/value pairs to support customisation of products |
-| result\[\].items\[\]currencyCode | string | ISO currency code |
-| result\[\].shippingFee | decimal | Shipping Fee |
-| result\[\].subTotalCurrency | decimal | Cart Total in Currency \(excluding Shipping\) |
-| result\[\].totalCurrency | decimal | Cart Total in Currency |
-| result\[\].totalPoints | decimal | Cart Total in Points |
-| result\[\].attributes | object | One or more key/value pairs to support customisation of cart |
-| pageSize | int | Page Size |
-| pageIndex | int | Page Index |
-| totalRecordsFound | int | Total Records Found |
-| resultCount | int | Result Count |
-| totalPages | int | Total Pages |
-| queryDurationMilliseconds | int | Query Duration in Milliseconds |
+| basketId | guid | Unique Identifier for the Cart |
+| version | int | incremental version number of basket object |
+| customerId | guid | Customer customerId |
+| orderId | guid | Order orderId |
+| status | string | status of Order |
+| items\[\] | array | An array of one or many items in the Cart |
+| items\[\].productId | guid | Unique Identifer for the Product \(see [Product](../../catalog-1/product.md)\) |
+| items\[\].slug | string | Product Slug |
+| items\[\].title | string | Product Title |
+| items\[\].description | string | Product Description |
+| items\[\].quanity | int | Quantity of Product |
+| items\[\].paymentMethod | string | Payment Method |
+| .items\[\].totalCurrency | decimal | Product Total in Currency |
+| items\[\].totalPoints | decimal | Product Total in Points |
+| items\[\].files\[\] | array | See [Assets](../../assets-1/assets.md) |
+| items\[\].attributes | object | One or more key/value pairs to support customisation of products |
+| items\[\]currencyCode | string | ISO currency code |
+| shippingFee | decimal | Shipping Fee |
+| subTotalCurrency | decimal | Cart Total in Currency \(excluding Shipping\) |
+| totalCurrency | decimal | Cart Total in Currency |
+| totalPoints | decimal | Cart Total in Points |
+| attributes | object | One or more key/value pairs to support customisation of cart |
 {% endtab %}
 
 {% tab title="Sample Object" %}
