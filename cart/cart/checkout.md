@@ -2,6 +2,8 @@
 
 Completes the check out process against the cart creating an order.
 
+After checkout the Cart becomes a Basket.
+
 ### **POST**
 
 ```text
