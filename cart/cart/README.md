@@ -6,8 +6,6 @@ Simple Store supports a full ecommerce shopping cart object.
 
 ![](../../.gitbook/assets/image%20%2830%29.png)
 
-A Cart after checkout becomes a Basket.
-
 {% tabs %}
 {% tab title="Attributes" %}
 
