@@ -1,6 +1,8 @@
 # Create Cart Item
 
-Add a Product as an Item to the Cart.
+Adds a Product as an Item to the Cart.
+
+Creates a Cart for a new cartId.
 
 ### **POST**
 
