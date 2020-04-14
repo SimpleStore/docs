@@ -42,7 +42,7 @@ Click **Submit** to create the new special.
 
 Additional **Details** are specified including the definition of Rules that determined which products specials apply to.  Specials can apply to specific products or all products assigned to specifed Categories or Collections.
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 Click **Save** to commit your modifications.
 

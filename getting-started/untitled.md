@@ -41,7 +41,7 @@ _Where rewards capability is enabled_
 
 **Optional:** In the Rewards Tab specify if the Product can be redeemed for Points or Currency.
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 ### Attributes
 
