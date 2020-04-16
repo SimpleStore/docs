@@ -52,6 +52,7 @@
 
 ## Customers
 
-* [Customers](customers/customers.md)
-* [Get Customer](customers/get-customer.md)
+* [Customers](customers/customers/README.md)
+  * [Create Customer](customers/customers/create-customer.md)
+  * [Get Customer](customers/customers/get-customer.md)
 
