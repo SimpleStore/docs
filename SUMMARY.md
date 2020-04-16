@@ -53,4 +53,5 @@
 ## Customers
 
 * [Customers](customers/customers.md)
+* [Get Customer](customers/get-customer.md)
 
