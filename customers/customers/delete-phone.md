@@ -1,6 +1,4 @@
-# Delete Phone
-
-
+# Delete Phone Number
 
 Delete a Customer Phone Number. 
 
@@ -51,11 +49,11 @@ Delete a Customer Phone Number.
 | customerId | guid | Unique Customer Identifier |
 | version | string | Incremental version number |
 | phonesRemoved | array | Array of phone numbers removed |
-| phonesRemoved\[\].key | string |  |
-| phonesRemoved\[\].type | string |  |
-| phonesRemoved\[\].country | string |  |
-| phonesRemoved\[\].numberLocal | string |  |
-| phonesRemoved\[\].numberInternational | string |  |
+| phonesRemoved\[\].key | string | A unique identifier for the Phone Number \(Guid/UUID\) |
+| phonesRemoved\[\].type | string | Unknown, Phone, Mobile |
+| phonesRemoved\[\].country | string | ISO Country Code |
+| phonesRemoved\[\].numberLocal | string | Phone Number in Local format |
+| phonesRemoved\[\].numberInternational | string | Phone Number in International format |
 | totalPhonesAttached | int | Count of Total Phone Number |
 {% endtab %}
 
