@@ -6,6 +6,8 @@ The Cart Item is updated if the ProductId already exists in the Cart.
   
 Creates a Cart for a new cartId if a new CartId is provided.
 
+If no CartId is provided a new Cart and CartId is created and the CartId is returned.
+
 ### **POST**
 
 ```text
