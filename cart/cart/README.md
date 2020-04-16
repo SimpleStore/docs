@@ -8,8 +8,6 @@ Simple Store supports a full ecommerce shopping cart object.
 
 {% tabs %}
 {% tab title="Attributes" %}
-
-
 | Element | Desciption |
 | :--- | :--- |
 | cartId | Unique Identifier for the Cart |
