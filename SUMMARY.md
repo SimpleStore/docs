@@ -60,4 +60,5 @@
   * [Get Customer](customers/customers/get-customer.md)
   * [Create Address](customers/customers/create-address.md)
   * [Create Phone Number](customers/customers/create-phone-number.md)
+  * [Delete Phone](customers/customers/delete-phone.md)
 

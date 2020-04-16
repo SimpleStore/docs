@@ -1,8 +1,10 @@
-# Create Phone Number
+# Delete Phone
 
-Creates a Customer Phone Number. 
 
-### **POST**
+
+Delete a Customer Phone Number. 
+
+### **DELETE**
 
 ```text
 /v1/customers/{CustomerId}/phones
@@ -16,7 +18,9 @@ Creates a Customer Phone Number.
 
 #### Request: Query
 
-No Query
+| Element | Type | Description |
+| :--- | :--- | :--- |
+| Version | string | Version Number |
 
 #### Request: Body
 
@@ -24,17 +28,15 @@ No Query
 {% tab title="Request Object" %}
 | Element | Type | Desciption |
 | :--- | :--- | :--- |
-| Type | string | Phone Number Type |
-| Country | string | ISO Country Code |
-| NumberLocal | string | Phone Number in Local format |
+| keys | array | Array of Keysode |
 {% endtab %}
 
 {% tab title="Sample Object" %}
 ```text
 {
-  "type: "string"
-  "country": "string",
-  "numberLocal": "string"
+  "keys": [
+    "string"
+  ]
 }
 ```
 {% endtab %}
@@ -44,12 +46,16 @@ No Query
 
 {% tabs %}
 {% tab title="Response Object" %}
-
-
 | Element | Type | Description |
 | :--- | :--- | :--- |
 | customerId | guid | Unique Customer Identifier |
 | version | string | Incremental version number |
+| phonesRemoved | array | Array of phone numbers removed |
+| phonesRemoved\[\].key | string |  |
+| phonesRemoved\[\].type | string |  |
+| phonesRemoved\[\].country | string |  |
+| phonesRemoved\[\].numberLocal | string |  |
+| phonesRemoved\[\].numberInternational | string |  |
 | totalPhonesAttached | int | Count of Total Phone Number |
 {% endtab %}
 
@@ -58,6 +64,15 @@ No Query
 {
   "customerId": "string",
   "version": "string",
+  "phonesRemoved": [
+    {
+      "key": "string",
+      "type": "Unknown",
+      "country": "string",
+      "numberLocal": "string",
+      "numberInternational": "string"
+    }
+  ],
   "totalPhonesAttached": 0
 }
 ```
