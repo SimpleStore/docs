@@ -73,8 +73,6 @@ No Route
 
 {% tabs %}
 {% tab title="Response Object" %}
-
-
 | Element | Type | Desciption |
 | :--- | :--- | :--- |
 | result | array | array of customers |

@@ -58,4 +58,6 @@
   * [Update Customer](customers/customers/update-customer.md)
   * [Delete Customer](customers/customers/delete-customer.md)
   * [Get Customer](customers/customers/get-customer.md)
+  * [Create Address](customers/customers/create-address.md)
+  * [Create Phone Number](customers/customers/create-phone-number.md)
 
