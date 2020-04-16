@@ -13,19 +13,19 @@ The Customer object supports the storage of a defined set and custom attributes 
 | displayName | Customer Display Name |
 | emailAddress | Customer Email Address in  |
 | phones\[\] | An array of Phone numbers |
-| phone.Key | A unique identifier for the Phone Number \(Guid/UUID\) |
-| phone.Type | Unknown, Phone, Mobile |
-| phone.Country | ISO Country Code |
-| phone.NumberLocal | Phone Number in Local format |
-| phone.NumberInternational | Phone Number in International format |
+| phones\[\].Key | A unique identifier for the Phone Number \(Guid/UUID\) |
+| phones\[\].Type | Unknown, Phone, Mobile |
+| phones\[\].Country | ISO Country Code |
+| phones\[\].NumberLocal | Phone Number in Local format |
+| phones\[\].NumberInternational | Phone Number in International format |
 | addresses\[\] | An array of address\(es\) |
-| address.Key | A unique identifier for the Address \(Guid/UUID\) |
-| address.Address1 | Address Line 1 |
-| address.Address2 | Address Line 2 |
-| address.Suburb | Suburb |
-| address.PostCode | Postal Code/Zip Code |
-| address.State | State/Province/Region |
-| address.Country | Country |
+| addresses\[\].Key | A unique identifier for the Address \(Guid/UUID\) |
+| addresses\[\].Address1 | Address Line 1 |
+| addresses\[\].Address2 | Address Line 2 |
+| addresses\[\].Suburb | Suburb |
+| addresses\[\].PostCode | Postal Code/Zip Code |
+| addresses\[\].State | State/Province/Region |
+| addresses\[\].Country | Country |
 | attributes | Attributes are a list of Key/Value to support customisation of a Customer |
 {% endtab %}
 
