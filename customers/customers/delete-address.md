@@ -1,11 +1,11 @@
-# Delete Phone Number
+# Delete Address
 
-Delete one or many Customer Phone Numbers. 
+Delete one or many Customer Addresses. 
 
 ### **DELETE**
 
 ```text
-/v1/customers/{CustomerId}/phones
+/v1/customers/{CustomerId}/addresses
 ```
 
 #### Request: Route
@@ -26,7 +26,7 @@ Delete one or many Customer Phone Numbers.
 {% tab title="Request Object" %}
 | Element | Type | Desciption |
 | :--- | :--- | :--- |
-| keys | array | Array of Phone Number Keys |
+| keys | array | Array of Address Keys |
 {% endtab %}
 
 {% tab title="Sample Object" %}
@@ -48,13 +48,15 @@ Delete one or many Customer Phone Numbers.
 | :--- | :--- | :--- |
 | customerId | guid | Unique Customer Identifier |
 | version | string | Incremental version number |
-| phonesRemoved | array | Array of phone numbers removed |
-| phonesRemoved\[\].key | string | A unique identifier for the Phone Number \(Guid/UUID\) |
-| phonesRemoved\[\].type | string | Unknown, Phone, Mobile |
-| phonesRemoved\[\].country | string | ISO Country Code |
-| phonesRemoved\[\].numberLocal | string | Phone Number in Local format |
-| phonesRemoved\[\].numberInternational | string | Phone Number in International format |
-| totalPhonesAttached | int | Count of Total Phone Number |
+| addressesRemoved | array | Array of phone numbers removed |
+| addressesRemoved\[\].key | string | A unique identifier for the Phone Number \(Guid/UUID\) |
+| addressesRemoved\[\].address1 | string | Address Line 1 |
+| addressesRemoved\[\].address2 | string | Address Line 2 |
+| addressesRemoved\[\].suburb | string | Suburb |
+| addressesRemoved\[\].postcode | string | Postal Code/Zip Code |
+| addressesRemoved\[\].state | string | State/Province/Region |
+| addressesRemoved\[\].country | string | Country |
+| totalAddressesAttached | int | Count of Total Addresses |
 {% endtab %}
 
 {% tab title="Sample Object" %}
@@ -62,16 +64,18 @@ Delete one or many Customer Phone Numbers.
 {
   "customerId": "string",
   "version": "string",
-  "phonesRemoved": [
+  "addressesRemoved": [
     {
       "key": "string",
-      "type": "Unknown",
-      "country": "string",
-      "numberLocal": "string",
-      "numberInternational": "string"
+      "address1": "string",
+      "address2": "string",
+      "suburb": "string",
+      "postcode": "string",
+      "state": "string",
+      "country": "string"
     }
   ],
-  "totalPhonesAttached": 0
+  "totalAddressesAttached": 0
 }
 ```
 {% endtab %}
