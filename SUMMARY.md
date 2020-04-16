@@ -38,7 +38,7 @@
   * [Get Cart By Cart Id](cart/cart/get-cart-by-cart-id.md)
   * [Delete Cart By Cart Id](cart/cart/delete-cart-by-cart-id.md)
   * [Checkout](cart/cart/checkout.md)
-  * [Create Cart Item](cart/cart/create-cart-item.md)
+  * [Create/Update Cart Item](cart/cart/create-cart-item.md)
   * [Delete Cart Item](cart/cart/delete-cart-item.md)
   * [Calculate Shipping](cart/cart/calculate-shipping.md)
   * [Basket Search](cart/cart/completed-basket-search.md)

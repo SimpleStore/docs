@@ -1,8 +1,10 @@
-# Create Cart Item
+# Create/Update Cart Item
 
-Adds a Product as an Item to the Cart.
+Adds or updates a Product as an Item to the Cart.
 
-Creates a Cart for a new cartId.
+The Cart Item is updated if the ProductId already exists in the Cart.  
+  
+Creates a Cart for a new cartId if a new CartId is provided.
 
 ### **POST**
 
