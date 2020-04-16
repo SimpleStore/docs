@@ -1,18 +1,18 @@
-# Create Customer
+# Update Customer
 
-Creates a Customer. 
+Update a Customer by the Unique Customer Identifer. 
 
-### **POST**
+### **PUT**
 
 ```text
-/v1/customers
+/v1/customers/{CustomerId}
 ```
 
 #### Request: Route
 
-No Route
-
-
+| Element | Type | Description |
+| :--- | :--- | :--- |
+| Customer | guid/uuid | A unique identifier for the Customer |
 
 #### Request: Query
 
@@ -78,19 +78,6 @@ No Query
 | detail | string |  |
 | instance | string |  |
 | extensions | object |  |
-{% endtab %}
-
-{% tab title="Sample Object" %}
-```text
-{
-  "type": "string",
-  "title": "string",
-  "status": 0,
-  "detail": "string",
-  "instance": "string",
-  "extensions": {}
-}
-```
 {% endtab %}
 {% endtabs %}
 

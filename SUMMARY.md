@@ -53,6 +53,9 @@
 ## Customers
 
 * [Customers](customers/customers/README.md)
+  * [Search Customers](customers/customers/search-customers.md)
   * [Create Customer](customers/customers/create-customer.md)
+  * [Update Customer](customers/customers/update-customer.md)
+  * [Delete Customer](customers/customers/delete-customer.md)
   * [Get Customer](customers/customers/get-customer.md)
 
