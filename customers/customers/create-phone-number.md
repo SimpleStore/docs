@@ -24,7 +24,7 @@ No Query
 {% tab title="Request Object" %}
 | Element | Type | Desciption |
 | :--- | :--- | :--- |
-| Type | string | Phone Number Type |
+| Type | string | Unknown, Phone, Mobile |
 | Country | string | ISO Country Code |
 | NumberLocal | string | Phone Number in Local format |
 {% endtab %}
