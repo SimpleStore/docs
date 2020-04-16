@@ -14,7 +14,7 @@ Simple Store supports a full ecommerce shopping cart object.
 | :--- | :--- |
 | cartId | Unique Identifier for the Cart |
 | items\[\] | An array of one or many items in the Cart |
-| items\[\].productId | Unique Identifer for the Product \(see [Product](../../catalog-1/product.md)\) |
+| items\[\].productId | Unique Identifer for the Product \(see [Product](../../catalog/product.md)\) |
 | items\[\].slug | Product Slug |
 | items\[\].title | Product Title |
 | items\[\].description | Product Description |

@@ -16,16 +16,16 @@
 * [Pagination](pagination.md)
 * [Swagger References](swagger.md)
 
-## Catalog <a id="catalog-1"></a>
+## Catalog
 
-* [Product](catalog-1/product.md)
-* [Pricing](catalog-1/pricing.md)
-* [Rewards](catalog-1/rewards.md)
-* [Inventory](catalog-1/inventory.md)
-* [Specials](catalog-1/specials.md)
-* [Collections](catalog-1/collections.md)
-* [Categories](catalog-1/categories.md)
-* [Configuration](catalog-1/configuration.md)
+* [Product](catalog/product.md)
+* [Pricing](catalog/pricing.md)
+* [Rewards](catalog/rewards.md)
+* [Inventory](catalog/inventory.md)
+* [Specials](catalog/specials.md)
+* [Collections](catalog/collections.md)
+* [Categories](catalog/categories.md)
+* [Configuration](catalog/configuration.md)
 
 ## Assets <a id="assets-1"></a>
 

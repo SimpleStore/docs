@@ -18,12 +18,12 @@ Click **Submit**
 
 ###  Details
 
-Specify a Sell and Retail Price \(see [Pricing](../catalog-1/pricing.md)\)
+Specify a Sell and Retail Price \(see [Pricing](../catalog/pricing.md)\)
 
 Additional product **Details** can be specified including:
 
-* Categories \(see [Categories](../catalog-1/categories.md)\)
-* Collections \(see [Collections](../catalog-1/collections.md)\)
+* Categories \(see [Categories](../catalog/categories.md)\)
+* Collections \(see [Collections](../catalog/collections.md)\)
 
 ![](../.gitbook/assets/image%20%2829%29.png)
 
@@ -31,7 +31,7 @@ Additional product **Details** can be specified including:
 
 ### Inventory
 
-**Optional:** in the Inventory Tab specify a Sku \(stock-keeping unit\) and available quantity and minimum active quantity. For more detail see [Inventory](../catalog-1/inventory.md).
+**Optional:** in the Inventory Tab specify a Sku \(stock-keeping unit\) and available quantity and minimum active quantity. For more detail see [Inventory](../catalog/inventory.md).
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
