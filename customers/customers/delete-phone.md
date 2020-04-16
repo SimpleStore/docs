@@ -1,6 +1,6 @@
 # Delete Phone Number
 
-Delete a Customer Phone Number. 
+Delete one or many Customer Phone Numbers. 
 
 ### **DELETE**
 
