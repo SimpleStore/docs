@@ -6,14 +6,16 @@ Get Cart By Cart Id
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieves the Cart by the Unique Cart Identifer
+Retrieves the Cart by the Unique Cart Identifer  
+  
+A unique identifer for the cart
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="CartId" type="string" required=true %}
-A unique identifer for the cart
+{% api-method-parameter name="" type="string" required=false %}
+
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
