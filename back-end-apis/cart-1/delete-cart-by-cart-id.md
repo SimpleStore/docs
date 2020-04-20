@@ -1,34 +1,14 @@
 # Delete Cart By Cart Id
 
-{% api-method method="delete" host="https://api.simplestore.io" path="/v1/cart/{cartId}" %}
-{% api-method-summary %}
-Delete Cart By Cart Id
-{% endapi-method-summary %}
+Delete Cart By Unique Cart Id
 
-{% api-method-description %}
-Deletes the Cart by the Unique Cart Identifer
-{% endapi-method-description %}
+### **DELETE**
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="cartId" type="string" required=false %}
-A unique identifer for the cart
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+#### Request: Route
 
-{% api-method-response %}
-{% api-method-response-example httpCode=204 %}
-{% api-method-response-example-description %}
+| Element | Type | Description |
+| :--- | :--- | :--- |
+| cartId | guid/uuid | A unique identifier for the cart |
 
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+#### Response: 204 No Content
 
