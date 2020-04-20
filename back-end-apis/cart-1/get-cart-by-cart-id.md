@@ -1,6 +1,6 @@
 # Get Cart By Cart Id
 
-{% api-method method="get" host="/v1/cart/{CartId}" path="" %}
+{% api-method method="get" host="" path="/v1/cart/{CartId}" %}
 {% api-method-summary %}
 Get Cart By Cart Id
 {% endapi-method-summary %}
