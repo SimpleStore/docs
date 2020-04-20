@@ -1,6 +1,6 @@
 # Get Cart By Cart Id
 
-{% api-method method="get" host="" path="/v1/cart/{CartId}" %}
+{% api-method method="get" host="https://api.simplestore.io" path="/v1/cart/{CartId}" %}
 {% api-method-summary %}
 Get Cart By Cart Id
 {% endapi-method-summary %}
