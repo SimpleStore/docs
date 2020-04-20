@@ -1,30 +1,38 @@
 # Get Cart By Cart Id
 
-Retrieves the Cart by the Unique Cart Identifer. 
+{% api-method method="get" host="/v1/cart/{CartId}" path="" %}
+{% api-method-summary %}
+Get Cart By Cart Id
+{% endapi-method-summary %}
 
-### **GET**
+{% api-method-description %}
+Retrieves the Cart by the Unique Cart Identifer
+{% endapi-method-description %}
 
-```text
-/v1/cart/{CartId}
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="cartId" type="string" required=true %}
+A unique identifer for the cart
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+See Cart
+{% endapi-method-response-example-description %}
+
 ```
 
-#### Request: Route
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
-| Element | Type | Description |
-| :--- | :--- | :--- |
-| cartId | guid/uuid | A unique identifier for the cart |
-
-#### Request: Query
-
-No Query
-
-#### Request: Body
-
-No request body
-
-#### Response: 200 Success
-
-Cart Object \(See [Cart](./)\)
+### \*\*\*\*
 
 
 
