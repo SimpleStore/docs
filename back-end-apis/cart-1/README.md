@@ -20,7 +20,7 @@ Simple Store supports a full ecommerce shopping cart object.
 | items\[\].paymentMethod | Payment Method |
 | items\[\].totalCurrency | Product Total in Currency |
 | items\[\].totalPoints | Product Total in Points |
-| items\[\].files\[\] | See [Assets](../../assets-1/assets.md) |
+| items\[\].files\[\] | See [Assets](../assets.md) |
 | items\[\].attributes | One or more key/value pairs to support customisation of products |
 | currencyCode | ISO currency code |
 | shippingFee | Shipping Fee |

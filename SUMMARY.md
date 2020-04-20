@@ -12,9 +12,30 @@
 
 ## API
 
-* [Authentication](authentication.md)
+* [Front End Client APIs](front-end-client-apis/README.md)
+  * [API Key and Token Authentication](front-end-client-apis/api-key-and-token-authentication.md)
+* [Back End APIs](back-end-apis/README.md)
+  * [Client Credential Authentication](back-end-apis/authentication.md)
+  * [Assets](back-end-apis/assets.md)
+  * [Cart](back-end-apis/cart-1/README.md)
+    * [Get Cart By Cart Id](back-end-apis/cart-1/get-cart-by-cart-id.md)
+    * [Delete Cart By Cart Id](back-end-apis/cart-1/delete-cart-by-cart-id.md)
+    * [Checkout](back-end-apis/cart-1/checkout.md)
+    * [Create/Update Cart Item](back-end-apis/cart-1/create-cart-item.md)
+    * [Delete Cart Item](back-end-apis/cart-1/delete-cart-item.md)
+    * [Calculate Shipping](back-end-apis/cart-1/calculate-shipping.md)
+    * [Basket Search](back-end-apis/cart-1/completed-basket-search.md)
+    * [Get Basket By Cart Id](back-end-apis/cart-1/get-complete-basket-by-cart-id.md)
 * [Pagination](pagination.md)
 * [Swagger References](swagger.md)
+
+## Assets <a id="assets-1"></a>
+
+* [Image Resizing](assets-1/image-resizing.md)
+
+## Cart
+
+* [Shipping](cart/shipping.md)
 
 ## Catalog
 
@@ -26,24 +47,6 @@
 * [Collections](catalog/collections.md)
 * [Categories](catalog/categories.md)
 * [Configuration](catalog/configuration.md)
-
-## Assets <a id="assets-1"></a>
-
-* [Assets](assets-1/assets.md)
-* [Image Resizing](assets-1/image-resizing.md)
-
-## Cart
-
-* [Cart](cart/cart/README.md)
-  * [Get Cart By Cart Id](cart/cart/get-cart-by-cart-id.md)
-  * [Delete Cart By Cart Id](cart/cart/delete-cart-by-cart-id.md)
-  * [Checkout](cart/cart/checkout.md)
-  * [Create/Update Cart Item](cart/cart/create-cart-item.md)
-  * [Delete Cart Item](cart/cart/delete-cart-item.md)
-  * [Calculate Shipping](cart/cart/calculate-shipping.md)
-  * [Basket Search](cart/cart/completed-basket-search.md)
-  * [Get Basket By Cart Id](cart/cart/get-complete-basket-by-cart-id.md)
-* [Shipping](cart/shipping.md)
 
 ## Orders
 

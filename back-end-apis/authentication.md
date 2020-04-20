@@ -1,4 +1,4 @@
-# Authentication
+# Client Credential Authentication
 
 SimpleStore platform uses bearer token to authenticate API requests. Using OAuth client credentials to authenticate the calling application and return a token that is valid for 60 minutes.
 

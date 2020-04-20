@@ -44,7 +44,7 @@ No Request Body
 | items\[\].paymentMethod | string | Payment Method |
 | .items\[\].totalCurrency | decimal | Product Total in Currency |
 | items\[\].totalPoints | decimal | Product Total in Points |
-| items\[\].files\[\] | array | See [Assets](../../assets-1/assets.md) |
+| items\[\].files\[\] | array | See [Assets](../assets.md) |
 | items\[\].attributes | object | One or more key/value pairs to support customisation of products |
 | items\[\]currencyCode | string | ISO currency code |
 | shippingFee | decimal | Shipping Fee |
