@@ -87,11 +87,11 @@ The Product can be associated with Categories, Collection, Assets and Attributes
     </tr>
     <tr>
       <td style="text-align:left">categories</td>
-      <td style="text-align:left">One or many categories the Product is assigned to (see <a href="../catalog/categories.md">Categories</a>)</td>
+      <td style="text-align:left">One or many categories the Product is assigned to (see <a href="categories.md">Categories</a>)</td>
     </tr>
     <tr>
       <td style="text-align:left">collections</td>
-      <td style="text-align:left">One or many collections the Product is assigned to (see <a href="../catalog/collections.md">Collections</a>)</td>
+      <td style="text-align:left">One or many collections the Product is assigned to (see <a href="collections.md">Collections</a>)</td>
     </tr>
     <tr>
       <td style="text-align:left">files[]</td>

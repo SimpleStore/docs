@@ -22,8 +22,8 @@ Specify a Sell and Retail Price \(see [Pricing](../back-end-apis/pricing.md)\)
 
 Additional product **Details** can be specified including:
 
-* Categories \(see [Categories](../catalog/categories.md)\)
-* Collections \(see [Collections](../catalog/collections.md)\)
+* Categories \(see [Categories](../back-end-apis/categories.md)\)
+* Collections \(see [Collections](../back-end-apis/collections.md)\)
 
 ![](../.gitbook/assets/image%20%2829%29.png)
 

@@ -26,10 +26,26 @@
     * [Calculate Shipping](back-end-apis/cart-1/calculate-shipping.md)
     * [Basket Search](back-end-apis/cart-1/completed-basket-search.md)
     * [Get Basket By Cart Id](back-end-apis/cart-1/get-complete-basket-by-cart-id.md)
-  * [Product](back-end-apis/product.md)
-  * [Pricing](back-end-apis/pricing.md)
-  * [Rewards](back-end-apis/rewards.md)
+  * [Categories](back-end-apis/categories.md)
+  * [Collections](back-end-apis/collections.md)
+  * [Configuration](back-end-apis/configuration.md)
+  * [Customers](back-end-apis/customers-1/README.md)
+    * [Search Customers](back-end-apis/customers-1/search-customers.md)
+    * [Create Customer](back-end-apis/customers-1/create-customer.md)
+    * [Update Customer](back-end-apis/customers-1/update-customer.md)
+    * [Delete Customer](back-end-apis/customers-1/delete-customer.md)
+    * [Get Customer](back-end-apis/customers-1/get-customer.md)
+    * [Create Address](back-end-apis/customers-1/create-address.md)
+    * [Delete Address](back-end-apis/customers-1/delete-address.md)
+    * [Create Phone Number](back-end-apis/customers-1/create-phone-number.md)
+    * [Delete Phone Number](back-end-apis/customers-1/delete-phone.md)
   * [Inventory](back-end-apis/inventory.md)
+  * [Orders](back-end-apis/orders-1.md)
+  * [Payments](back-end-apis/payments.md)
+  * [Pricing](back-end-apis/pricing.md)
+  * [Product](back-end-apis/product.md)
+  * [Rewards](back-end-apis/rewards.md)
+  * [Shipping](back-end-apis/shipping.md)
   * [Specials](back-end-apis/specials.md)
 * [Pagination](pagination.md)
 * [Swagger References](swagger.md)
@@ -37,32 +53,4 @@
 ## Assets <a id="assets-1"></a>
 
 * [Image Resizing](assets-1/image-resizing.md)
-
-## Cart
-
-* [Shipping](cart/shipping.md)
-
-## Catalog
-
-* [Collections](catalog/collections.md)
-* [Categories](catalog/categories.md)
-* [Configuration](catalog/configuration.md)
-
-## Orders
-
-* [Orders](orders/orders.md)
-* [Payments](orders/payments.md)
-
-## Customers
-
-* [Customers](customers/customers/README.md)
-  * [Search Customers](customers/customers/search-customers.md)
-  * [Create Customer](customers/customers/create-customer.md)
-  * [Update Customer](customers/customers/update-customer.md)
-  * [Delete Customer](customers/customers/delete-customer.md)
-  * [Get Customer](customers/customers/get-customer.md)
-  * [Create Address](customers/customers/create-address.md)
-  * [Delete Address](customers/customers/delete-address.md)
-  * [Create Phone Number](customers/customers/create-phone-number.md)
-  * [Delete Phone Number](customers/customers/delete-phone.md)
 
