@@ -8,6 +8,8 @@ Creates a Cart for a new cartId if a new CartId is provided.
 
 If no CartId is provided a new Cart and CartId is created and the CartId is returned.
 
+Carts are transient and expire after 14 days.
+
 ### **POST**
 
 ```text
