@@ -12,7 +12,7 @@ Retrieves the Cart by the Unique Cart Identifer
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="cartId" type="string" required=true %}
+{% api-method-parameter name="CartId" type="string" required=true %}
 A unique identifer for the cart
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
