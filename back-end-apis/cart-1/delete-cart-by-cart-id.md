@@ -1,30 +1,34 @@
 # Delete Cart By Cart Id
 
-Deletes the Cart by the Unique Cart Identifer. 
+{% api-method method="delete" host="" path="/v1/cart/{cartId}" %}
+{% api-method-summary %}
+Delete Cart By Cart Id
+{% endapi-method-summary %}
 
-### **DELETE**
+{% api-method-description %}
+Deletes the Cart by the Unique Cart Identifer
+{% endapi-method-description %}
 
-```text
-/v1/cart/{CartId}
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="cartId" type="string" required=false %}
+A unique identifer for the cart
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=204 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
 ```
 
-#### Request: Route
-
-| Type | Description |  |
-| :--- | :--- | :--- |
-| cartId | guid/uuid | A unique identifier for the cart |
-
-#### Request: Body
-
-No request body
-
-#### Request: Query
-
-No Query
-
-#### Response: 204
-
-```text
-No response body
 ```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
