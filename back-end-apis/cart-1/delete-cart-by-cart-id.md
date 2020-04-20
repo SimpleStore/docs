@@ -1,6 +1,6 @@
 # Delete Cart By Cart Id
 
-{% api-method method="delete" host="" path="/v1/cart/{cartId}" %}
+{% api-method method="delete" host="https://api.simplestore.io" path="/v1/cart/{cartId}" %}
 {% api-method-summary %}
 Delete Cart By Cart Id
 {% endapi-method-summary %}
