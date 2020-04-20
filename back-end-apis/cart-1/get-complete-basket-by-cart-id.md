@@ -36,7 +36,7 @@ No Request Body
 | orderId | guid | Order orderId |
 | status | string | status of Order |
 | items\[\] | array | An array of one or many items in the Cart |
-| items\[\].productId | guid | Unique Identifer for the Product \(see [Product](../../catalog/product.md)\) |
+| items\[\].productId | guid | Unique Identifer for the Product \(see [Product](../product.md)\) |
 | items\[\].slug | string | Product Slug |
 | items\[\].title | string | Product Title |
 | items\[\].description | string | Product Description |

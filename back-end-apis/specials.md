@@ -61,7 +61,7 @@ Click **Save** to commit your modifications.
 | endDate | End date for the special |
 | attributes | One or more key/value pairs to support customisation of specials |
 | **Rules** |  |
-| categories | Categories that the special applies to \(see [Categories](categories.md)\), if a Product is assigned to these categories then the special is applied |
+| categories | Categories that the special applies to \(see [Categories](../catalog/categories.md)\), if a Product is assigned to these categories then the special is applied |
 | collections | Collections that the special applies to \(see [Specials](specials.md)\), if a Product is assigned to these collections then the special is applied |
 | products | Products that the special applies to |
 {% endtab %}

@@ -26,6 +26,11 @@
     * [Calculate Shipping](back-end-apis/cart-1/calculate-shipping.md)
     * [Basket Search](back-end-apis/cart-1/completed-basket-search.md)
     * [Get Basket By Cart Id](back-end-apis/cart-1/get-complete-basket-by-cart-id.md)
+  * [Product](back-end-apis/product.md)
+  * [Pricing](back-end-apis/pricing.md)
+  * [Rewards](back-end-apis/rewards.md)
+  * [Inventory](back-end-apis/inventory.md)
+  * [Specials](back-end-apis/specials.md)
 * [Pagination](pagination.md)
 * [Swagger References](swagger.md)
 
@@ -39,11 +44,6 @@
 
 ## Catalog
 
-* [Product](catalog/product.md)
-* [Pricing](catalog/pricing.md)
-* [Rewards](catalog/rewards.md)
-* [Inventory](catalog/inventory.md)
-* [Specials](catalog/specials.md)
 * [Collections](catalog/collections.md)
 * [Categories](catalog/categories.md)
 * [Configuration](catalog/configuration.md)

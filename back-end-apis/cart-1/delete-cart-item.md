@@ -25,7 +25,7 @@ No Query
 | Element | Type | Description |
 | :--- | :--- | :--- |
 | items | array | Cart Item Array |
-| items\[\].productId | string | ProductId \(See [Product](../../catalog/product.md)\) |
+| items\[\].productId | string | ProductId \(See [Product](../product.md)\) |
 {% endtab %}
 
 {% tab title="Sample Object" %}

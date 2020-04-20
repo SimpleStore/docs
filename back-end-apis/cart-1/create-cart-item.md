@@ -34,7 +34,7 @@ No Query
 | :--- | :--- | :--- |
 | currencyCode | string | ISO Currency Code |
 | items | array | Cart Item Array |
-| items\[\].productId | string | ProductId \(See [Product](../../catalog/product.md)\) |
+| items\[\].productId | string | ProductId \(See [Product](../product.md)\) |
 | items\[\].quantity | int | Quantity of Product |
 | attributes | object | Attributes are a list of Key/Value to support customisation of the cart items |
 {% endtab %}

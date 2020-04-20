@@ -41,7 +41,7 @@ No Request Body
 | result\[\].orderId | guid | Order orderId |
 | result\[\].status | string | status of Order |
 | result\[\].items\[\] | array | An array of one or many items in the Cart |
-| result\[\].items\[\].productId | guid | Unique Identifer for the Product \(see [Product](../../catalog/product.md)\) |
+| result\[\].items\[\].productId | guid | Unique Identifer for the Product \(see [Product](../product.md)\) |
 | result\[\].items\[\].slug | string | Product Slug |
 | result\[\].items\[\].title | string | Product Title |
 | result\[\].items\[\].description | string | Product Description |

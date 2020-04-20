@@ -18,7 +18,7 @@ Click **Submit**
 
 ###  Details
 
-Specify a Sell and Retail Price \(see [Pricing](../catalog/pricing.md)\)
+Specify a Sell and Retail Price \(see [Pricing](../back-end-apis/pricing.md)\)
 
 Additional product **Details** can be specified including:
 
@@ -31,7 +31,7 @@ Additional product **Details** can be specified including:
 
 ### Inventory
 
-**Optional:** in the Inventory Tab specify a Sku \(stock-keeping unit\) and available quantity and minimum active quantity. For more detail see [Inventory](../catalog/inventory.md).
+**Optional:** in the Inventory Tab specify a Sku \(stock-keeping unit\) and available quantity and minimum active quantity. For more detail see [Inventory](../back-end-apis/inventory.md).
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
