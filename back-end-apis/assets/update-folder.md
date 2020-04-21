@@ -1,7 +1,5 @@
 # Update Folder
 
-
-
 Updates a folder‌
 
 ### **POST** <a id="post"></a>
