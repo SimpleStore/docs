@@ -1,4 +1,9 @@
-# Back End APIs
+# Backend APIs
+
+The Simple Store Backend API support system to system integration to allow the building of complete applications using the Simple Store Platform.  Example integrations include:
+
+* Server Side Framework \(Spring/MVC\) to Simple Store
+* Backend System \(Order Management, Product Supplier\) to Simple Store
 
 ### Client Credential Authentication
 
