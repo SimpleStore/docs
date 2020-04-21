@@ -15,7 +15,6 @@
 * [Front End Client APIs](front-end-client-apis/README.md)
   * [API Key and Token Authentication](front-end-client-apis/api-key-and-token-authentication.md)
 * [Backend APIs](back-end-apis/README.md)
-  * [Client Credential Authentication](back-end-apis/authentication.md)
   * [Assets](back-end-apis/assets.md)
   * [Cart](back-end-apis/cart/README.md)
     * [Get Cart By Cart Id](back-end-apis/cart/get-cart-by-cart-id.md)
