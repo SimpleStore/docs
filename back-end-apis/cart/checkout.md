@@ -60,7 +60,7 @@ No Query
 
 {% tabs %}
 {% tab title="Response Object" %}
-| Element | Desciption |
+| Element | Description |
 | :--- | :--- |
 | orderId | Unique Identifier for the Order |
 | customerId | Unique Identifier for the Customer |
@@ -81,7 +81,7 @@ No Query
 
 {% tabs %}
 {% tab title="Response Object" %}
-| Element | Type | Desciption |
+| Element | Type | Description |
 | :--- | :--- | :--- |
 | type | string |  |
 | title | string |  |

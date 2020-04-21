@@ -1,6 +1,6 @@
-# Get Folders
+# Search Folders
 
-Get Cart By Unique Cart Id
+Searches for Folders
 
 ### **GET**
 

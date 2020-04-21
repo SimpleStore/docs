@@ -1,14 +1,6 @@
 # Create Folder
 
-Adds or updates a Product as an Item to the Cart.
-
-The Cart Item is updated if the ProductId already exists in the Cart.  
-  
-Creates a Cart for a new cartId if a new CartId is provided.
-
-If no CartId is provided a new Cart and CartId is created and the CartId is returned.
-
-Carts are transient and expire after 14 days.
+Creates a folder
 
 ### **POST**
 
@@ -63,8 +55,10 @@ No Query
 
 {% tab title="Sample Object" %}
 ```text
-"folderId": "string",
-  "version": "string"
+{
+    "folderId": "string",
+    "version": "string"
+}
 ```
 {% endtab %}
 {% endtabs %}
