@@ -41,8 +41,6 @@ Get Folder By Unique Folder Id
 {% endtab %}
 {% endtabs %}
 
-
-
 #### Response: 404 Not Found
 
 {% tabs %}

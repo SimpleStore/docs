@@ -32,7 +32,7 @@ No Request Body
 {% tab title="Response  Object" %}
 
 
-| Element |  | Desciption |
+| Element |  | Description |
 | :--- | :--- | :--- |
 | result | array | array of carts |
 | result\[\].basketId | guid | Unique Identifier for the Cart |
@@ -121,7 +121,7 @@ No Request Body
 
 {% tabs %}
 {% tab title="Response Object" %}
-| Element | Type | Desciption |
+| Element | Type | Description |
 | :--- | :--- | :--- |
 | type | string |  |
 | title | string |  |

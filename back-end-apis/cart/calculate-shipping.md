@@ -46,7 +46,7 @@ Cart Object \(See [Cart](./)\)
 
 {% tabs %}
 {% tab title="Response Object" %}
-| Element | Type | Desciption |
+| Element | Type | Description |
 | :--- | :--- | :--- |
 | type | string |  |
 | title | string |  |
