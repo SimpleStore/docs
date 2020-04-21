@@ -1,6 +1,6 @@
 # Get Folder By Id
 
-Get Cart By Unique Cart Id
+Get Folder By Unique Folder Id
 
 ### **GET**
 
@@ -12,19 +12,20 @@ Get Cart By Unique Cart Id
 
 | Element | Type | Description |
 | :--- | :--- | :--- |
-|  | guid/uuid | A unique identifier for the cart |
+| FolderId | guid/uuid | A unique identifier for the cart |
 
 #### Response: 200 Ok
 
 {% tabs %}
 {% tab title="Response Object" %}
-| Element | Type | Desciption |
+| Element | Type | Description |
 | :--- | :--- | :--- |
-| folderId | string |  |
-| version | string |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| result | array | array of carts |
+| folderId | string | Unique Identifier for the Folder |
+| version | string | incremental version number of folder object |
+| name | string | Name |
+| parentId | string | A parent folder identifier to support the creation of a hierarchical/tree based structure of related folder |
+| attributes | object | Attributes are a list of Key/Value to support customisation of a folder |
 {% endtab %}
 
 {% tab title="Sample Object" %}
