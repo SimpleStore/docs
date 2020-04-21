@@ -4,6 +4,10 @@ Delete Cart By Unique Cart Id
 
 ### **DELETE**
 
+```text
+/v1/cart/{CartId}
+```
+
 #### Request: Route
 
 | Element | Type | Description |

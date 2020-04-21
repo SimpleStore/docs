@@ -49,7 +49,7 @@ No Request Body
 | result\[\].items\[\].paymentMethod | string | Payment Method |
 | result\[\].items\[\].totalCurrency | decimal | Product Total in Currency |
 | result\[\].items\[\].totalPoints | decimal | Product Total in Points |
-| result\[\].items\[\].files\[\] | array | See [Assets](../assets.md) |
+| result\[\].items\[\].files\[\] | array | See [Assets](../assets/) |
 | result\[\].items\[\].attributes | object | One or more key/value pairs to support customisation of products |
 | result\[\].items\[\]currencyCode | string | ISO currency code |
 | result\[\].shippingFee | decimal | Shipping Fee |

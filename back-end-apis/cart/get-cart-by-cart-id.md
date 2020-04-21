@@ -4,6 +4,10 @@ Get Cart By Unique Cart Id
 
 ### **GET**
 
+```text
+/v1/cart/{CartId}
+```
+
 #### Request: Route
 
 | Element | Type | Description |

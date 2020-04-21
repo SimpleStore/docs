@@ -95,7 +95,7 @@ The Product can be associated with Categories, Collection, Assets and Attributes
     </tr>
     <tr>
       <td style="text-align:left">files[]</td>
-      <td style="text-align:left">One or many assets associated with the Product (see <a href="assets.md">Assets</a>)</td>
+      <td style="text-align:left">One or many assets associated with the Product (see <a href="assets/">Assets</a>)</td>
     </tr>
     <tr>
       <td style="text-align:left">paymentMethod</td>
