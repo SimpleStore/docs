@@ -33,7 +33,7 @@ No Request Body
 {% tab title="Response  Object" %}
 | Element |  | Description |
 | :--- | :--- | :--- |
-| result | array | array of carts |
+| result | array | array of folders |
 | result\[\].folderId | string | Unique Identifier for the Folder |
 | result\[\].version | string | incremental version number of file object |
 | result\[\].name | string | Name |

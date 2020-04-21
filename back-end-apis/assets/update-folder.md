@@ -12,7 +12,7 @@ Updates a folder‌
 
 | Element | Type | Description |
 | :--- | :--- | :--- |
-| FolderId | guid/uuid | A unique identifier for the cart |
+| FolderId | string | A unique identifier for the folder |
 
 #### Request: Query <a id="request-query"></a>
 

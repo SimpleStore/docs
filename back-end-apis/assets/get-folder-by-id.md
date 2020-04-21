@@ -12,7 +12,7 @@ Get Folder By Unique Folder Id
 
 | Element | Type | Description |
 | :--- | :--- | :--- |
-| FolderId | guid/uuid | A unique identifier for the cart |
+| FolderId | string | A unique identifier for the folder |
 
 #### Response: 200 Ok
 
@@ -20,7 +20,6 @@ Get Folder By Unique Folder Id
 {% tab title="Response Object" %}
 | Element | Type | Description |
 | :--- | :--- | :--- |
-| result | array | array of carts |
 | folderId | string | Unique Identifier for the Folder |
 | version | string | incremental version number of folder object |
 | name | string | Name |
