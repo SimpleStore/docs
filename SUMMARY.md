@@ -19,6 +19,7 @@
     * [Search Folders](back-end-apis/assets/get-folders.md)
     * [Create Folder](back-end-apis/assets/create-folder.md)
     * [Get Folder By Id](back-end-apis/assets/get-folder-by-id.md)
+    * [Update Folder](back-end-apis/assets/update-folder.md)
   * [Cart](back-end-apis/cart/README.md)
     * [Get Cart By Cart Id](back-end-apis/cart/get-cart-by-cart-id.md)
     * [Delete Cart By Cart Id](back-end-apis/cart/delete-cart-by-cart-id.md)
