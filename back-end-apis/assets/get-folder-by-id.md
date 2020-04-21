@@ -16,9 +16,46 @@ Get Cart By Unique Cart Id
 
 #### Response: 200 Ok
 
-See [Cart](../cart/)
+{% tabs %}
+{% tab title="Response Object" %}
+| Element | Type | Desciption |
+| :--- | :--- | :--- |
+| folderId | string |  |
+| version | string |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+{% endtab %}
 
-#### Response: 404 Not Found <a id="response-404-not-found"></a>
+{% tab title="Sample Object" %}
+```text
+{
+  "folderId": "string",
+  "version": "string",
+  "name": "string",
+  "parentId": "string",
+  "attributes": {}
+}
+```
+{% endtab %}
+{% endtabs %}
+
+
+
+#### Response: 404 Not Found
+
+{% tabs %}
+{% tab title="Response Object" %}
+| Element | Type | Desciption |
+| :--- | :--- | :--- |
+| type | string |  |
+| title | string |  |
+| status | int |  |
+| detail | string |  |
+| instance | string |  |
+| extensions | object |  |
+{% endtab %}
+{% endtabs %}
 
 
 

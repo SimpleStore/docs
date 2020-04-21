@@ -31,7 +31,7 @@ No Request Body
 
 {% tabs %}
 {% tab title="Response  Object" %}
-| Element |  | Desciption |
+| Element |  | Description |
 | :--- | :--- | :--- |
 | result | array | array of carts |
 | result\[\].folderId | string | Unique Identifier for the Folder |
