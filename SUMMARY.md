@@ -12,8 +12,7 @@
 
 ## API
 
-* [Front End Client APIs](front-end-client-apis/README.md)
-  * [API Key and Token Authentication](front-end-client-apis/api-key-and-token-authentication.md)
+* [Front End Client APIs](front-end-client-apis.md)
 * [Backend APIs](back-end-apis/README.md)
   * [Assets](back-end-apis/assets/README.md)
     * [Search Folders](back-end-apis/assets/get-folders.md)
