@@ -57,5 +57,3 @@
 * [Pagination](pagination.md)
 * [Swagger References](swagger.md)
 
-## Assets <a id="assets-1"></a>
-
