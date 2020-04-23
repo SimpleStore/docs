@@ -13,6 +13,7 @@
 ## Concepts
 
 * [Assets](concepts/assets/README.md)
+  * [Image Resizing](concepts/assets/image-resizing.md)
   * [Search Folders](concepts/assets/get-folders.md)
   * [Create Folder](concepts/assets/create-folder.md)
   * [Get Folder By Id](concepts/assets/get-folder-by-id.md)
@@ -30,16 +31,16 @@
 * [Categories](concepts/categories.md)
 * [Configuration](concepts/configuration.md)
 * [Collections](concepts/collections.md)
-* [Customers](concepts/customers-1/README.md)
-  * [Search Customers](concepts/customers-1/search-customers.md)
-  * [Create Customer](concepts/customers-1/create-customer.md)
-  * [Update Customer](concepts/customers-1/update-customer.md)
-  * [Delete Customer](concepts/customers-1/delete-customer.md)
-  * [Get Customer](concepts/customers-1/get-customer.md)
-  * [Create Address](concepts/customers-1/create-address.md)
-  * [Delete Address](concepts/customers-1/delete-address.md)
-  * [Create Phone Number](concepts/customers-1/create-phone-number.md)
-  * [Delete Phone Number](concepts/customers-1/delete-phone.md)
+* [Customers](concepts/customers/README.md)
+  * [Search Customers](concepts/customers/search-customers.md)
+  * [Create Customer](concepts/customers/create-customer.md)
+  * [Update Customer](concepts/customers/update-customer.md)
+  * [Delete Customer](concepts/customers/delete-customer.md)
+  * [Get Customer](concepts/customers/get-customer.md)
+  * [Create Address](concepts/customers/create-address.md)
+  * [Delete Address](concepts/customers/delete-address.md)
+  * [Create Phone Number](concepts/customers/create-phone-number.md)
+  * [Delete Phone Number](concepts/customers/delete-phone.md)
 * [Inventory](concepts/inventory/README.md)
   * [Orders](concepts/inventory/orders-1.md)
 * [Payments](concepts/payments.md)
@@ -57,6 +58,4 @@
 * [Swagger References](swagger.md)
 
 ## Assets <a id="assets-1"></a>
-
-* [Image Resizing](assets-1/image-resizing.md)
 
