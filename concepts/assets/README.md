@@ -2,7 +2,13 @@
 
 Simple store supports the upload, storage and management of assess \(files\) that can be associated with Products and Categories.  Examples of assets include: jpg, gif, png, pdf.
 
-### Folders
+### Portal View
+
+
+
+### Asset Properties
+
+#### Folders
 
 Assets can be stored in a hierarchy of folders.
 
@@ -30,7 +36,7 @@ Assets can be stored in a hierarchy of folders.
 {% endtab %}
 {% endtabs %}
 
-### Files
+#### Files
 
 Files represent the range of assets that can be stored and managed.
 
