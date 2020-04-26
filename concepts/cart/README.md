@@ -4,7 +4,7 @@ Simple Store supports a full ecommerce shopping cart object.
 
 ### Basic Cart Process
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 {% tabs %}
 {% tab title="Attributes" %}

@@ -8,33 +8,35 @@ The Customer object supports the storage of a defined set and custom attributes 
 
 Assess the Customers screen in the console via the console navigation bar.
 
+![](../../.gitbook/assets/image%20%2832%29.png)
+
 #### Add New Customers
 
-Click Upload File to upload and create the new asset.
+Click Add New to create a new customer.
 
+![](../../.gitbook/assets/image%20%2845%29.png)
 
+Specify a First Name. Last Name, Display Name and Email Address.
 
-Specify a Title, Description and Access Permission.
-
-Access Permission allow an assets to be defined as Public or Private
-
-Drag and Drop the asset to upload.
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 Click **Submit**.
 
 #### Edit Customers
 
-Assets can be accessed by clicking on the main asset screen:
+Customers can be accessed by clicking on the main customer screen:
 
+![](../../.gitbook/assets/image%20%2828%29.png)
 
+Customer Details can be edited.
 
-File Details can be edited.
-
-
+![](../../.gitbook/assets/image%20%285%29.png)
 
 Click **Save** to commit your modifications.
 
-Assets can be deleted by clicking the **Delete** button.
+Customers can be deleted by clicking the **Delete** button.
+
+### Customer Properties
 
 {% tabs %}
 {% tab title="Attributes" %}

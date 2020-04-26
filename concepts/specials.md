@@ -18,13 +18,13 @@ Specials can be applied to:
 
 Assess the **Special** screen in the console via the console navigation bar.
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 #### Add New Special
 
 Click **Add New** to create a new special
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 Specified a:
 
@@ -36,13 +36,13 @@ Specified a:
 
 Click **Submit** to create the new special.
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 #### Edit Special 
 
 Additional **Details** are specified including the definition of Rules that determined which products specials apply to.  Specials can apply to specific products or all products assigned to specifed Categories or Collections.
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2847%29.png)
 
 Click **Save** to commit your modifications.
 
