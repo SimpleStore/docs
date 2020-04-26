@@ -2,6 +2,40 @@
 
 The Customer object supports the storage of a defined set and custom attributes relating to your customers.
 
+### Portal View
+
+#### Accessing Customers 
+
+Assess the Customers screen in the console via the console navigation bar.
+
+#### Add New Customers
+
+Click Upload File to upload and create the new asset.
+
+
+
+Specify a Title, Description and Access Permission.
+
+Access Permission allow an assets to be defined as Public or Private
+
+Drag and Drop the asset to upload.
+
+Click **Submit**.
+
+#### Edit Customers
+
+Assets can be accessed by clicking on the main asset screen:
+
+
+
+File Details can be edited.
+
+
+
+Click **Save** to commit your modifications.
+
+Assets can be deleted by clicking the **Delete** button.
+
 {% tabs %}
 {% tab title="Attributes" %}
 | Element | Description |
