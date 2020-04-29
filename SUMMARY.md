@@ -43,6 +43,7 @@
   * [Delete Phone Number](concepts/customers/delete-phone.md)
 * [Inventory](concepts/inventory/README.md)
   * [Orders](concepts/inventory/orders-1.md)
+* [Orders](concepts/orders.md)
 * [Payments](concepts/payments.md)
 * [Pricing](concepts/pricing.md)
 * [Product](concepts/product.md)
