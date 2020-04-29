@@ -8,13 +8,13 @@ Simple store supports the upload, storage and management of assess \(files\) tha
 
 Assess the Assets screen in the console via the console navigation bar.
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 #### Add New Asset
 
 Click Upload File to upload and create the new asset.
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 Specify a Title, Description and Access Permission.
 
@@ -22,7 +22,7 @@ Access Permission allow an assets to be defined as Public or Private
 
 Drag and Drop the asset to upload.
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 Click **Submit**.
 
@@ -30,11 +30,11 @@ Click **Submit**.
 
 Assets can be accessed by clicking on the main asset screen:
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 File Details can be edited.
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+![](../../.gitbook/assets/image%20%2839%29.png)
 
 Click **Save** to commit your modifications.
 

@@ -12,7 +12,7 @@ Products can be assigned to one or more categories which classify products into 
 
 Assess the **Categories** screen in the console via the console navigation bar.
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 #### Add New Category
 
@@ -20,13 +20,13 @@ Specified a Name for the category.
 
 Click **New Category** to create the new category.
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 #### Edit Categories
 
 Additional **Category Details** can be specified including:
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 Click **Save** to commit your modifications.
 

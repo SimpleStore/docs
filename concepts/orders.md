@@ -8,19 +8,31 @@ The Order object stores completed Orders.
 
 Assess the Orders screen in the console via the console navigation bar.
 
-![](../.gitbook/assets/image%20%2832%29.png)
-
-#### 
+![](../.gitbook/assets/image%20%2851%29.png)
 
 #### View Orders
 
 Orders can be accessed by clicking on the main order screen:
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
-Click **Save** to commit your modifications.
+Click **Edit** to commit view the Order Detail modifications.
 
-Customers can be deleted by clicking the **Delete** button.
+Additional a summary of the order is visible by expanding the tree view.
+
+![](../.gitbook/assets/image%20%2846%29.png)
+
+#### Order Details - General and Purchaser Details
+
+![](../.gitbook/assets/image%20%282%29.png)
+
+#### Order Details - Items
+
+![](../.gitbook/assets/image%20%285%29.png)
+
+#### Order Details - Billing and Shipping Details
+
+![](../.gitbook/assets/image%20%2856%29.png)
 
 ### Order Properties
 

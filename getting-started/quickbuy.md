@@ -13,15 +13,15 @@ Quick Buy is a plug and play solution enabling your business to become an eComme
 
 To enable quick but navigate to the Product Details screen and click "Get Quick Buy Link"
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 This will generate a quick buy url:
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 
 
 Which you can post anywhere to sell your product:
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
