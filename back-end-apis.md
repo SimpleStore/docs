@@ -15,69 +15,98 @@ This token then used as a Bearer Token for subsequent API calls to the platform.
 `client_secret`is sensitive information and it should never used or disclosed publicly.
 {% endhint %}
 
-{% api-method method="post" host="https://auth.simplestore.io" path="/connect/token" %}
-{% api-method-summary %}
-Access Token
-{% endapi-method-summary %}
+## Get an Access Token
 
-{% api-method-description %}
 This endpoint responsible in generating access tokens for Client \(application\) to allow full read and write access to the platform.
-{% endapi-method-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Content-Type" type="string" required=true %}
-application/x-www-form-urlencoded
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+### **POST**
 
-{% api-method-form-data-parameters %}
-{% api-method-parameter name="grant\_type" type="string" required=true %}
-`client_credentials`
-{% endapi-method-parameter %}
+```text
+https://auth.simplestore.io/connect/token
+```
 
-{% api-method-parameter name="client\_id" type="string" required=true %}
-Your `client_id` generated from Control Panel
-{% endapi-method-parameter %}
+#### Request: Headers
 
-{% api-method-parameter name="client\_secret" type="string" required=true %}
-Your `client_secret` generated from Control Panel 
-{% endapi-method-parameter %}
-{% endapi-method-form-data-parameters %}
-{% endapi-method-request %}
+| Key | Value |
+| :--- | :--- |
+| Content-Type | application/x-www-form-urlencoded |
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Successful authentication of client credentials will return access token with expiry time in seconds
-{% endapi-method-response-example-description %}
+#### Request: Route
 
-```javascript
+No Route
+
+#### Request: Query
+
+No Query
+
+#### Request: Body
+
+{% tabs %}
+{% tab title="Request Object" %}
+| Element | Type | Description |
+| :--- | :--- | :--- |
+| grant\_type | string | "client\_credentials" |
+| client\_id | string | Your client\_id generated from Control Panel |
+| client\_secret | string | Your client\_secret generated from Control Panel |
+{% endtab %}
+
+{% tab title="Sample Object" %}
+```text
+{
+  "grant_type" : "client_credentials"
+  "client_id" : [from control panel]
+  "client_secret" : [from control panel]
+}
+```
+{% endtab %}
+{% endtabs %}
+
+#### Response: 200 Ok
+
+Successful authentication of client credentials will return access token with expiry time in seconds.
+
+{% hint style="info" %}
+`access_token`has an expiry of 60 minutes. You must renew the token on or before expiry.
+{% endhint %}
+
+{% tabs %}
+{% tab title="Response Object" %}
+| Element | Type | Description |
+| :--- | :--- | :--- |
+| access\_token | string | A token |
+| expiries\_in | int | 3600 |
+| token\_type | string | "Bearer" |
+{% endtab %}
+
+{% tab title="Sample Object" %}
+```text
 {
     "access_token": "<Token>",
     "expires_in": 3600,
     "token_type": "Bearer"
 }
 ```
-{% endapi-method-response-example %}
+{% endtab %}
+{% endtabs %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
+#### Response: 400 Bad Request
+
 Failed authentication will return invalid client
-{% endapi-method-response-example-description %}
 
-```
+{% tabs %}
+{% tab title="Response Object" %}
+| Element | Type | Desciption |
+| :--- | :--- | :--- |
+| error | string | error description |
+| title | string |  |
+{% endtab %}
+
+{% tab title="Sample Object" %}
+```text
 {
     "error": "invalid_client"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% hint style="info" %}
-`access_token` has an expiry of 60 minutes. You must renew the token on or before expiry.
-{% endhint %}
+{% endtab %}
+{% endtabs %}
 
