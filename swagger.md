@@ -30,5 +30,5 @@ You can use the swagger documentation to generate client proxies to use in your 
 
 ### Clients Gateway
 
-[https://clients.simplestore.io/swagger/index.html](https://clients.simplestore.io/swagger/index.html)
+[https://clients.api.simplestore.io/swagger/index.html](https://clients.api.simplestore.io/swagger/index.html)
 
