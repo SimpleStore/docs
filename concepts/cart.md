@@ -4,7 +4,7 @@ Simple Store supports a full ecommerce shopping cart object.
 
 ### Basic Cart Process
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 {% tabs %}
 {% tab title="Attributes" %}
@@ -12,7 +12,7 @@ Simple Store supports a full ecommerce shopping cart object.
 | :--- | :--- |
 | cartId | Unique Identifier for the Cart |
 | items\[\] | An array of one or many items in the Cart |
-| items\[\].productId | Unique Identifer for the Product \(see [Product](../product.md)\) |
+| items\[\].productId | Unique Identifer for the Product \(see [Product](product.md)\) |
 | items\[\].slug | Product Slug |
 | items\[\].title | Product Title |
 | items\[\].description | Product Description |
@@ -20,7 +20,7 @@ Simple Store supports a full ecommerce shopping cart object.
 | items\[\].paymentMethod | Payment Method |
 | items\[\].totalCurrency | Product Total in Currency |
 | items\[\].totalPoints | Product Total in Points |
-| items\[\].files\[\] | See [Assets](../assets/) |
+| items\[\].files\[\] | See [Assets](assets/) |
 | items\[\].attributes | One or more key/value pairs to support customisation of products |
 | currencyCode | ISO currency code |
 | shippingFee | Shipping Fee |

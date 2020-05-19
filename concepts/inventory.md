@@ -4,7 +4,7 @@ Optionally SimpleStore supports the tracking of product inventory.
 
 ### Portal View
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 The following elements can be specified for management of inventory:
 

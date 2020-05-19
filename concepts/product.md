@@ -130,7 +130,7 @@ The Product can be associated with Categories, Collection, Assets and Attributes
     </tr>
     <tr>
       <td style="text-align:left">inventory</td>
-      <td style="text-align:left">See <a href="inventory/">Inventory</a>
+      <td style="text-align:left">See <a href="inventory.md">Inventory</a>
       </td>
     </tr>
   </tbody>

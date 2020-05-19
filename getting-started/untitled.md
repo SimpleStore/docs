@@ -31,7 +31,7 @@ Additional product **Details** can be specified including:
 
 ### Inventory
 
-**Optional:** in the Inventory Tab specify a Sku \(stock-keeping unit\) and available quantity and minimum active quantity. For more detail see [Inventory](../concepts/inventory/).
+**Optional:** in the Inventory Tab specify a Sku \(stock-keeping unit\) and available quantity and minimum active quantity. For more detail see [Inventory](../concepts/inventory.md).
 
 ![](../.gitbook/assets/image%20%283%29.png)
 

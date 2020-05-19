@@ -8,17 +8,17 @@ The Customer object supports the storage of a defined set and custom attributes 
 
 Assess the Customers screen in the console via the console navigation bar.
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 #### Add New Customers
 
 Click Add New to create a new customer.
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2853%29.png)
 
 Specify a First Name. Last Name, Display Name and Email Address.
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 Click **Submit**.
 
@@ -26,11 +26,11 @@ Click **Submit**.
 
 Customers can be accessed by clicking on the main customer screen:
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 Customer Details can be edited.
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 Click **Save** to commit your modifications.
 
