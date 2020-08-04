@@ -25,5 +25,7 @@ curl -d '{"emailAddress":"email address", "password":"password"}' \
      -X POST https://clients.api.simplestore.io/v1/customer/login
 ```
 
+### Swagger References
 
+[https://clients.api.simplestore.io/swagger/index.html](https://clients.api.simplestore.io/swagger/index.html)
 
