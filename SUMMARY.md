@@ -30,6 +30,8 @@
 
 ## API
 
+---
+
 * [Front End Client APIs](front-end-client-apis.md)
 * [Backend APIs](back-end-apis.md)
 * [Pagination](pagination.md)
