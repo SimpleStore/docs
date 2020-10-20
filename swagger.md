@@ -28,6 +28,10 @@ You can use the swagger documentation to generate client proxies to use in your 
 
 [https://api.simplestore.io/swagger/orders/index.html](https://api.simplestore.io/swagger/shipping/index.html)
 
+### Promotions Service 
+
+[https://api.simplestore.io/swagger/promotions/index.html](https://api.simplestore.io/swagger/promotions/index.html)
+
 ### Clients Gateway
 
 [https://clients.api.simplestore.io/swagger/index.html](https://clients.api.simplestore.io/swagger/index.html)
